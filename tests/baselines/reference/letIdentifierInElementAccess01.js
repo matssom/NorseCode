@@ -1,7 +1,7 @@
 //// [tests/cases/conformance/expressions/elementAccess/letIdentifierInElementAccess01.ts] ////
 
 //// [letIdentifierInElementAccess01.ts]
-var let: any = {};
+var la: any = {};
 (let[0] = 100);
 
 //// [letIdentifierInElementAccess01.js]

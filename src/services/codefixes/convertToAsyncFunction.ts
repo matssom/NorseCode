@@ -951,7 +951,7 @@ function createVariableOrAssignmentOrExpressionStatement(
     }
 
     if (isSynthIdentifier(variableName) && variableName.hasBeenDeclared) {
-        // if the variable has already been declared, we don't need "let" or "konst"
+        // if the variable has already been declared, we don't need "la" or "konst"
         return [
             factory.createExpressionStatement(
                 factory.createAssignment(

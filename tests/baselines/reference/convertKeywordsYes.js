@@ -62,7 +62,7 @@ var bigObject = {
     boolean: 0,
     implements: 0,
     interface: 0,
-    let: 0,
+    la: 0,
     module: 0,
     number: 0,
     package: 0,
@@ -334,7 +334,7 @@ var bigObject = {
     boolean: 0,
     implements: 0,
     interface: 0,
-    let: 0,
+    la: 0,
     module: 0,
     number: 0,
     package: 0,
@@ -450,7 +450,7 @@ var bigEnum;
     bigEnum[bigEnum["boolean"] = 2] = "boolean";
     bigEnum[bigEnum["implements"] = 3] = "implements";
     bigEnum[bigEnum["interface"] = 4] = "interface";
-    bigEnum[bigEnum["let"] = 5] = "let";
+    bigEnum[bigEnum["la"] = 5] = "la";
     bigEnum[bigEnum["module"] = 6] = "module";
     bigEnum[bigEnum["number"] = 7] = "number";
     bigEnum[bigEnum["package"] = 8] = "package";

@@ -9,6 +9,6 @@
 
 const [r0, r1] = test.ranges();
 verify.navigateTo(
-    { pattern: "c", expected: [{ name: "c", kind: "let", range: r0 }] },
-    { pattern: "d", expected: [{ name: "d", kind: "let", range: r1, containerName: "foo", containerKind: "function" }] },
+    { pattern: "c", expected: [{ name: "c", kind: "la", range: r0 }] },
+    { pattern: "d", expected: [{ name: "d", kind: "la", range: r1, containerName: "foo", containerKind: "function" }] },
 );

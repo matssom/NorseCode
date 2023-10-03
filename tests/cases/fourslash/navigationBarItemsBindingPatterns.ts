@@ -13,11 +13,11 @@ verify.navigationTree({
   childItems: [
     {
       text: "a",
-      kind: "let",
+      kind: "la",
     },
     {
       text: "b",
-      kind: "let",
+      kind: "la",
     },
     {
       text: "bar",
@@ -49,7 +49,7 @@ verify.navigationTree({
     },
     {
       text: "foo1",
-      kind: "let",
+      kind: "la",
     },
     {
       text: "g",
@@ -69,11 +69,11 @@ verify.navigationBar([
     childItems: [
       {
         text: "a",
-        kind: "let",
+        kind: "la",
       },
       {
         text: "b",
-        kind: "let",
+        kind: "la",
       },
       {
         text: "bar",
@@ -105,7 +105,7 @@ verify.navigationBar([
       },
       {
         text: "foo1",
-        kind: "let",
+        kind: "la",
       },
       {
         text: "g",

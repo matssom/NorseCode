@@ -16,7 +16,7 @@ verify.navigationTree({
             childItems: [
                 {
                     "text": "x",
-                    "kind": "let"
+                    "kind": "la"
                 }
             ]
         }
@@ -40,7 +40,7 @@ verify.navigationBar([
         childItems: [
             {
                 "text": "x",
-                "kind": "let"
+                "kind": "la"
             }
         ],
         indent: 1

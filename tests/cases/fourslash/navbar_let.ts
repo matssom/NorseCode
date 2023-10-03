@@ -8,7 +8,7 @@ verify.navigationTree({
     "childItems": [
         {
             "text": "c",
-            "kind": "let"
+            "kind": "la"
         }
     ]
 });
@@ -20,7 +20,7 @@ verify.navigationBar([
         "childItems": [
             {
                 "text": "c",
-                "kind": "let"
+                "kind": "la"
             }
         ]
     }

@@ -31,7 +31,7 @@ function foo() {
 >package : () => void
 
     function bar(private, implements, let) { }
->bar : (private: any, implements: any, let: any) => void
+>bar : (private: any, implements: any, la: any) => void
 >private : any
 >implements : any
 >let : any

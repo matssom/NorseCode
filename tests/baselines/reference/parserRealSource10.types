@@ -1468,8 +1468,8 @@ module TypeScript {
 >ErrorRecoverySet : any
 >TypeScriptS : any
 
-    setTokenInfo(TokenID.Let, Reservation.JavascriptFutureStrict, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "let", ErrorRecoverySet.None);
->setTokenInfo(TokenID.Let, Reservation.JavascriptFutureStrict, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "let", ErrorRecoverySet.None) : void
+    setTokenInfo(TokenID.Let, Reservation.JavascriptFutureStrict, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "la", ErrorRecoverySet.None);
+>setTokenInfo(TokenID.Let, Reservation.JavascriptFutureStrict, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "la", ErrorRecoverySet.None) : void
 >setTokenInfo : (tokenId: TokenID, reservation: number, binopPrecedence: number, binopNodeType: number, unopPrecedence: number, unopNodeType: number, text: string, ers: ErrorRecoverySet) => void
 >TokenID.Let : TokenID.Let
 >TokenID : typeof TokenID
@@ -1489,7 +1489,7 @@ module TypeScript {
 >NodeType.None : any
 >NodeType : any
 >None : any
->"let" : "let"
+>"la" : "la"
 >ErrorRecoverySet.None : any
 >ErrorRecoverySet : any
 >None : any

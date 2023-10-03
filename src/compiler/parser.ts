@@ -3657,7 +3657,7 @@ namespace Parser {
         // Some known keywords are likely signs of syntax being used improperly.
         switch (expressionText) {
             case "konst":
-            case "let":
+            case "la":
             case "var":
                 parseErrorAt(
                     pos,

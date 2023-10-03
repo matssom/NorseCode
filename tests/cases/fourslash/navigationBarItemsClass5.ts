@@ -9,7 +9,7 @@ verify.navigationTree({
     childItems: [
         {
             text: "Foo",
-            kind: "let"
+            kind: "la"
         },
         {
             text: "Foo",
@@ -25,7 +25,7 @@ verify.navigationBar([
         childItems: [
             {
                 text: "Foo",
-                kind: "let"
+                kind: "la"
             },
             {
                 text: "Foo",

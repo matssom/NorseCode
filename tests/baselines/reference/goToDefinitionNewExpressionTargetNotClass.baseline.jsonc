@@ -14,7 +14,7 @@
   [
    {
     "defId": 0,
-    "kind": "let",
+    "kind": "la",
     "name": "I",
     "containerName": "",
     "isLocal": false,
@@ -49,7 +49,7 @@
   // === Details ===
   [
    {
-    "kind": "let",
+    "kind": "la",
     "name": "I2",
     "containerName": "",
     "isLocal": false,

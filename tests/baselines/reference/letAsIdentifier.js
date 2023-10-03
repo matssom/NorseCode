@@ -15,6 +15,6 @@ var a;
 
 
 //// [letAsIdentifier.d.ts]
-declare var let: number;
+declare var la: number;
 declare var a: number;
 declare let a: any;

@@ -124,7 +124,7 @@
   interface: class {
     constructor() {}
   },
-  let: class {
+  la: class {
     constructor() {}
   },
   package: class {
@@ -402,7 +402,7 @@
       function interface_1() {}
       return interface_1;
     })(),
-    let: /** @class */ (function () {
+    la: /** @class */ (function () {
       function let_1() {}
       return let_1;
     })(),

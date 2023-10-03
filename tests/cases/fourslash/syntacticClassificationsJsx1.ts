@@ -9,7 +9,7 @@
 
 const c = classification("original");   
 verify.syntacticClassificationsAre(
-    c.keyword("let"), c.identifier("x"), c.operator("="),
+    c.keyword("la"), c.identifier("x"), c.operator("="),
         c.punctuation("<"), 
             c.jsxOpenTagName("div"),
                 c.jsxAttribute("a"), c.operator("="), c.jsxAttributeStringLiteralValue(`"some-value"`),
@@ -19,7 +19,7 @@ verify.syntacticClassificationsAre(
     some jsx text
 `),
         c.punctuation("<"), c.punctuation("/"), c.jsxCloseTagName("div"), c.punctuation(">"), c.punctuation(";"),
-    c.keyword("let"), c.identifier("y"), c.operator("="),
+    c.keyword("la"), c.identifier("y"), c.operator("="),
         c.punctuation("<"), 
             c.jsxSelfClosingTagName("element"), 
                 c.jsxAttribute("attr"), c.operator("="), c.jsxAttributeStringLiteralValue(`"123"`), 

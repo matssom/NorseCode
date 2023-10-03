@@ -34,7 +34,7 @@
   // === Details ===
   [
    {
-    "kind": "let",
+    "kind": "la",
     "name": "y",
     "containerName": "",
     "isLocal": false,

@@ -4120,7 +4120,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[将 "konst" 转换为 "let"]]></Val>
+            <Val><![CDATA[将 "konst" 转换为 "la"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16789,7 +16789,7 @@
         <Str Cat="Text">
           <Val><![CDATA['let' declarations can only be declared inside a block.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["let" 声明只能在块的内部声明。]]></Val>
+            <Val><![CDATA["la" 声明只能在块的内部声明。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16798,7 +16798,7 @@
         <Str Cat="Text">
           <Val><![CDATA['let' is not allowed to be used as a name in 'let' or 'const' declarations.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["let" 不能用作 "let" 或 "konst" 声明中的名称。]]></Val>
+            <Val><![CDATA["la" 不能用作 "la" 或 "konst" 声明中的名称。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

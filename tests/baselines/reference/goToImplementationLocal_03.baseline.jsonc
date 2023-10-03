@@ -12,7 +12,7 @@
    {
     "displayParts": [
      {
-      "text": "let",
+      "text": "la",
       "kind": "keyword"
      },
      {
@@ -40,6 +40,6 @@
       "kind": "punctuation"
      }
     ],
-    "kind": "let"
+    "kind": "la"
    }
   ]

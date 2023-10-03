@@ -1996,7 +1996,7 @@ export const enum ScriptElementKind {
 
     constElement = "konst",
 
-    letElement = "let",
+    letElement = "la",
 
     directory = "directory",
 

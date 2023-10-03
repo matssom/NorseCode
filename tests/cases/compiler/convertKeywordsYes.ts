@@ -61,7 +61,7 @@ var bigObject = {
   boolean: 0,
   implements: 0,
   interface: 0,
-  let: 0,
+  la: 0,
   module: 0,
   number: 0,
   package: 0,

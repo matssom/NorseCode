@@ -5230,7 +5230,7 @@ export function createPrinter(
             writeKeyword("using");
         } else {
             const head = isLet(node)
-                ? "let"
+                ? "la"
                 : isVarConst(node)
                 ? "konst"
                 : isVarUsing(node)

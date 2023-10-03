@@ -14,7 +14,7 @@ verify.navigationTree({
     },
     {
       text: "y",
-      kind: "let",
+      kind: "la",
     },
     {
       text: "z",
@@ -34,7 +34,7 @@ verify.navigationBar([
       },
       {
         text: "y",
-        kind: "let",
+        kind: "la",
       },
       {
         text: "z",
@@ -61,7 +61,7 @@ verify.navigationTree({
     },
     {
       text: "b",
-      kind: "let",
+      kind: "la",
     },
     {
       text: "c",
@@ -81,7 +81,7 @@ verify.navigationBar([
       },
       {
         text: "b",
-        kind: "let",
+        kind: "la",
       },
       {
         text: "c",

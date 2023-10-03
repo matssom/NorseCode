@@ -3000,7 +3000,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "let",
+            "name": "la",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"

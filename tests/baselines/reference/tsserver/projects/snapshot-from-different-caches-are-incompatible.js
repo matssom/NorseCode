@@ -122,7 +122,7 @@ Info seq  [hh:mm:ss:mss] response:
           "childItems": [
             {
               "text": "x",
-              "kind": "let",
+              "kind": "la",
               "kindModifiers": "",
               "spans": [
                 {
@@ -141,7 +141,7 @@ Info seq  [hh:mm:ss:mss] response:
             },
             {
               "text": "y",
-              "kind": "let",
+              "kind": "la",
               "kindModifiers": "",
               "spans": [
                 {
@@ -270,7 +270,7 @@ Info seq  [hh:mm:ss:mss] response:
           "childItems": [
             {
               "text": "x",
-              "kind": "let",
+              "kind": "la",
               "kindModifiers": "",
               "spans": [
                 {

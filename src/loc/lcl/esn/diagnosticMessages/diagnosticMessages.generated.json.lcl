@@ -4033,7 +4033,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert all 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Convertir todo "konst" en "let"]]></Val>
+            <Val><![CDATA[Convertir todo "konst" en "la"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4132,7 +4132,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Convertir "konst" en "let"]]></Val>
+            <Val><![CDATA[Convertir "konst" en "la"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16801,7 +16801,7 @@
         <Str Cat="Text">
           <Val><![CDATA['let' declarations can only be declared inside a block.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Las declaraciones "let" solo se pueden declarar dentro de un bloque.]]></Val>
+            <Val><![CDATA[Las declaraciones "la" solo se pueden declarar dentro de un bloque.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16810,7 +16810,7 @@
         <Str Cat="Text">
           <Val><![CDATA['let' is not allowed to be used as a name in 'let' or 'const' declarations.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[No se permite usar "let" como nombre en las declaraciones "let" o "konst".]]></Val>
+            <Val><![CDATA[No se permite usar "la" como nombre en las declaraciones "la" o "konst".]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

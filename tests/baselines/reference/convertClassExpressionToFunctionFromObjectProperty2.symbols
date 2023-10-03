@@ -204,7 +204,7 @@
 
         constructor() { }
     },
-    let: class {
+    la: class {
 >let : Symbol(let, Decl(convertClassExpressionToFunctionFromObjectProperty2.ts, 122, 6))
 
         constructor() { }

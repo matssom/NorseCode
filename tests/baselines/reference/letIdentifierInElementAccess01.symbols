@@ -1,7 +1,7 @@
 //// [tests/cases/conformance/expressions/elementAccess/letIdentifierInElementAccess01.ts] ////
 
 === letIdentifierInElementAccess01.ts ===
-var let: any = {};
+var la: any = {};
 >let : Symbol(let, Decl(letIdentifierInElementAccess01.ts, 0, 3))
 
 (let[0] = 100);

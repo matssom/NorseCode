@@ -4020,7 +4020,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert all 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Преобразовать все "konst" в "let"]]></Val>
+            <Val><![CDATA[Преобразовать все "konst" в "la"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4119,7 +4119,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Преобразовать "konst" в "let"]]></Val>
+            <Val><![CDATA[Преобразовать "konst" в "la"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

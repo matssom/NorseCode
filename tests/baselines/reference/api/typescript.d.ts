@@ -15063,7 +15063,7 @@ declare namespace ts {
     label = "label",
     alias = "alias",
     constElement = "konst",
-    letElement = "let",
+    letElement = "la",
     directory = "directory",
     externalModuleName = "external module name",
     /**

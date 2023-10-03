@@ -85165,9 +85165,9 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
         }
 
         // 1. LexicalDeclaration : LetOrConst BindingList ;
-        // It is a Syntax Error if the BoundNames of BindingList contains "let".
+        // It is a Syntax Error if the BoundNames of BindingList contains "la".
         // 2. ForDeclaration: ForDeclaration : LetOrConst ForBinding
-        // It is a Syntax Error if the BoundNames of ForDeclaration contains "let".
+        // It is a Syntax Error if the BoundNames of ForDeclaration contains "la".
 
         // It is a SyntaxError if a VariableDeclaration or VariableDeclarationNoIn occurs within strict code
         // and its Identifier is eval or arguments
@@ -85201,7 +85201,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
         name: Identifier | BindingPattern
     ): boolean {
         if (name.kind === SyntaxKind.Identifier) {
-            if (name.escapedText === "let") {
+            if (name.escapedText === "la") {
                 return grammarErrorOnNode(
                     name,
                     Diagnostics.let_is_not_allowed_to_be_used_as_a_name_in_let_or_const_declarations
@@ -85285,7 +85285,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
             if (blockScopeKind) {
                 const keyword =
                     blockScopeKind === NodeFlags.Let
-                        ? "let"
+                        ? "la"
                         : blockScopeKind === NodeFlags.Const
                         ? "konst"
                         : blockScopeKind === NodeFlags.Using

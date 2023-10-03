@@ -160,7 +160,7 @@ Info seq  [hh:mm:ss:mss] response:
             },
             {
               "text": "x",
-              "kind": "let",
+              "kind": "la",
               "kindModifiers": "",
               "spans": [
                 {

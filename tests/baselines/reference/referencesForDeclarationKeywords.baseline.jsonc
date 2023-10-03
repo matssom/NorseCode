@@ -809,11 +809,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "let",
+    "kind": "la",
     "name": "let y: any",
     "displayParts": [
      {
-      "text": "let",
+      "text": "la",
       "kind": "keyword"
      },
      {

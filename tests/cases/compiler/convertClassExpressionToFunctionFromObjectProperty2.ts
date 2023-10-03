@@ -123,7 +123,7 @@
   interface: class {
     constructor() {}
   },
-  let: class {
+  la: class {
     constructor() {}
   },
   package: class {

@@ -86,7 +86,7 @@ interface ClassMethodDecoratorContext<
          * Gets the current value of the method from the provided object.
          *
          * @example
-         * let fn = context.access.get(instance);
+         * la fn = context.access.get(instance);
          */
         get(object: This): Value;
     };
@@ -152,7 +152,7 @@ interface ClassGetterDecoratorContext<
          * Invokes the getter on the provided object.
          *
          * @example
-         * let value = context.access.get(instance);
+         * la value = context.access.get(instance);
          */
         get(object: This): Value;
     };
@@ -247,7 +247,7 @@ interface ClassAccessorDecoratorContext<
          * Invokes the getter on the provided object.
          *
          * @example
-         * let value = context.access.get(instance);
+         * la value = context.access.get(instance);
          */
         get(object: This): Value;
 
@@ -280,7 +280,7 @@ interface ClassAccessorDecoratorTarget<This, Value> {
      * Invokes the getter that was defined prior to decorator application.
      *
      * @example
-     * let value = target.get.call(instance);
+     * la value = target.get.call(instance);
      */
     get(this: This): Value;
 

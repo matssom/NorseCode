@@ -384,7 +384,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "let",
+            "name": "la",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -457,7 +457,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "somelongname",
-            "kind": "let",
+            "kind": "la",
             "kindModifiers": "",
             "sortText": "15"
           },
@@ -851,7 +851,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "let",
+            "name": "la",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"

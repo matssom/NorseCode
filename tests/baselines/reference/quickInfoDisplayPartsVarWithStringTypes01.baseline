@@ -23,7 +23,7 @@
       "name": "1"
     },
     "item": {
-      "kind": "let",
+      "kind": "la",
       "kindModifiers": "",
       "textSpan": {
         "start": 4,
@@ -31,7 +31,7 @@
       },
       "displayParts": [
         {
-          "text": "let",
+          "text": "la",
           "kind": "keyword"
         },
         {
@@ -65,7 +65,7 @@
       "name": "2"
     },
     "item": {
-      "kind": "let",
+      "kind": "la",
       "kindModifiers": "",
       "textSpan": {
         "start": 44,
@@ -73,7 +73,7 @@
       },
       "displayParts": [
         {
-          "text": "let",
+          "text": "la",
           "kind": "keyword"
         },
         {
@@ -107,7 +107,7 @@
       "name": "3"
     },
     "item": {
-      "kind": "let",
+      "kind": "la",
       "kindModifiers": "",
       "textSpan": {
         "start": 74,
@@ -115,7 +115,7 @@
       },
       "displayParts": [
         {
-          "text": "let",
+          "text": "la",
           "kind": "keyword"
         },
         {

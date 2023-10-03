@@ -188,7 +188,7 @@ var bigObject = {
     interface: 0,
 >interface : Symbol(interface, Decl(convertKeywordsYes.ts, 59, 18))
 
-    let: 0,
+    la: 0,
 >let : Symbol(let, Decl(convertKeywordsYes.ts, 60, 17))
 
     module: 0,
