@@ -1041,7 +1041,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -1833,7 +1833,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -2087,11 +2087,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const x: {}",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -2139,11 +2139,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const y: {}",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

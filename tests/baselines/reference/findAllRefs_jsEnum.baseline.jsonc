@@ -19,7 +19,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type E = string\nconst E: {\n    A: string;\n}",
     "displayParts": [
      {
@@ -55,7 +55,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -141,7 +141,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type E = string\nconst E: {\n    A: string;\n}",
     "displayParts": [
      {
@@ -177,7 +177,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -263,7 +263,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type E = string\nconst E: {\n    A: string;\n}",
     "displayParts": [
      {
@@ -299,7 +299,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -385,7 +385,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type E = string\nconst E: {\n    A: string;\n}",
     "displayParts": [
      {
@@ -421,7 +421,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -507,7 +507,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type E = string\nconst E: {\n    A: string;\n}",
     "displayParts": [
      {
@@ -543,7 +543,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

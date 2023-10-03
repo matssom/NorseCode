@@ -1021,12 +1021,12 @@
       "entries": [
         {
           "name": "f",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -1472,13 +1472,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -4532,12 +4532,12 @@
       "entries": [
         {
           "name": "f",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -4983,13 +4983,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -8043,12 +8043,12 @@
       "entries": [
         {
           "name": "f",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -8482,13 +8482,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -11546,12 +11546,12 @@
       "entries": [
         {
           "name": "f",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -11997,13 +11997,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -15057,12 +15057,12 @@
       "entries": [
         {
           "name": "f",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -15496,13 +15496,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -18556,12 +18556,12 @@
       "entries": [
         {
           "name": "f",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -18995,13 +18995,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -22347,13 +22347,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]

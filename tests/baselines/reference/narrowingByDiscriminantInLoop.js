@@ -19,13 +19,13 @@ interface OperationMemberType {
 }
 
 interface ConstantMemberType {
-    type: "const";
+    type: "konst";
     idlType: string;
 }
 
 function insertInterface(callbackType: InterfaceType) {
     for (const memberType of callbackType.members) {
-        if (memberType.type === "const") {
+        if (memberType.type === "konst") {
             memberType.idlType;  // string
         }
         else if (memberType.type === "operation") {
@@ -44,7 +44,7 @@ function insertInterface2(callbackType: InterfaceType) {
 }
 
 function foo(memberType: IDLMemberTypes) {
-    if (memberType.type === "const") {
+    if (memberType.type === "konst") {
         memberType.idlType;  // string
     }
     else if (memberType.type === "operation") {
@@ -92,7 +92,7 @@ function f2(x: A | B) {
 function insertInterface(callbackType) {
     for (var _i = 0, _a = callbackType.members; _i < _a.length; _i++) {
         var memberType = _a[_i];
-        if (memberType.type === "const") {
+        if (memberType.type === "konst") {
             memberType.idlType; // string
         }
         else if (memberType.type === "operation") {
@@ -110,7 +110,7 @@ function insertInterface2(callbackType) {
     }
 }
 function foo(memberType) {
-    if (memberType.type === "const") {
+    if (memberType.type === "konst") {
         memberType.idlType; // string
     }
     else if (memberType.type === "operation") {

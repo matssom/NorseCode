@@ -15,7 +15,7 @@
       "name": "1"
     },
     "item": {
-      "kind": "const",
+      "kind": "konst",
       "kindModifiers": "",
       "textSpan": {
         "start": 41,
@@ -23,7 +23,7 @@
       },
       "displayParts": [
         {
-          "text": "const",
+          "text": "konst",
           "kind": "keyword"
         },
         {

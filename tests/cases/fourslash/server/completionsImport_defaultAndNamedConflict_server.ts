@@ -22,23 +22,23 @@ verify.completions({
       kindModifiers: "export",
       hasAction: true,
       sortText: completion.SortText.AutoImportSuggestions,
-      tags: []
+      tags: [],
     },
     {
       name: "someModule",
       source: "/someModule",
       sourceDisplay: "./someModule",
       text: "const someModule: 0",
-      kind: "const",
+      kind: "konst",
       kindModifiers: "export",
       hasAction: true,
       sortText: completion.SortText.AutoImportSuggestions,
-      tags: []
+      tags: [],
     },
   ],
   preferences: {
-    includeCompletionsForModuleExports: true
-  }
+    includeCompletionsForModuleExports: true,
+  },
 });
 
 verify.applyCodeActionFromCompletion("", {
@@ -46,5 +46,5 @@ verify.applyCodeActionFromCompletion("", {
   source: "/someModule",
   data: { exportName: "default", fileName: "/someModule.ts" },
   description: `Add import from "./someModule"`,
-  newFileContent: `import someModule from "./someModule";\r\n\r\nsomeMo`
+  newFileContent: `import someModule from "./someModule";\r\n\r\nsomeMo`,
 });

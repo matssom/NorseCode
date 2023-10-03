@@ -13,11 +13,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const x: typeof import(\"/a\")",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -116,11 +116,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const y: typeof import(\"/a\")",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

@@ -107,7 +107,7 @@ declare namespace Intl {
         resolvedOptions(): ResolvedListFormatOptions;
     }
 
-    const ListFormat: {
+    konst ListFormat: {
         prototype: ListFormat;
 
         /**

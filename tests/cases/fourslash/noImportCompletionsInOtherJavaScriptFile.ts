@@ -23,31 +23,31 @@
 
 // In esnext js files are assumed to be modules
 goTo.eachMarker(() => {
-    verify.completions({
-        includes: {
-            name: "fail",
-            source: "/node_modules/foo/index",
-            sourceDisplay: "./node_modules/foo/index",
-            text: "const fail: number",
-            kind: "const",
-            kindModifiers: "export,declare",
-            hasAction: true,
-            sortText: completion.SortText.AutoImportSuggestions
-        },
-        preferences: { includeCompletionsForModuleExports: true },
-    });
-    edit.insert("export const k = 10;\r\nf");
-    verify.completions({
-        includes: {
-            name: "fail",
-            source: "/node_modules/foo/index",
-            sourceDisplay: "./node_modules/foo/index",
-            text: "const fail: number",
-            kind: "const",
-            kindModifiers: "export,declare",
-            hasAction: true,
-            sortText: completion.SortText.AutoImportSuggestions
-        },
-        preferences: { includeCompletionsForModuleExports: true },
-    });
+  verify.completions({
+    includes: {
+      name: "fail",
+      source: "/node_modules/foo/index",
+      sourceDisplay: "./node_modules/foo/index",
+      text: "const fail: number",
+      kind: "konst",
+      kindModifiers: "export,declare",
+      hasAction: true,
+      sortText: completion.SortText.AutoImportSuggestions,
+    },
+    preferences: { includeCompletionsForModuleExports: true },
+  });
+  edit.insert("export const k = 10;\r\nf");
+  verify.completions({
+    includes: {
+      name: "fail",
+      source: "/node_modules/foo/index",
+      sourceDisplay: "./node_modules/foo/index",
+      text: "const fail: number",
+      kind: "konst",
+      kindModifiers: "export,declare",
+      hasAction: true,
+      sortText: completion.SortText.AutoImportSuggestions,
+    },
+    preferences: { includeCompletionsForModuleExports: true },
+  });
 });

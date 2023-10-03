@@ -98,7 +98,7 @@ interface ClassMethodDecoratorContext<
      *
      * @example
      * ```ts
-     * const bound: ClassMethodDecoratorFunction = (value, context) {
+     * konst bound: ClassMethodDecoratorFunction = (value, context) {
      *   if (context.private) throw new TypeError("Not supported on private methods.");
      *   context.addInitializer(function () {
      *     this[context.name] = this[context.name].bind(this);

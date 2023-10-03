@@ -163,11 +163,11 @@
     "defId": 1,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const x: boolean",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

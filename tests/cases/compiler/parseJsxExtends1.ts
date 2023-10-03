@@ -4,6 +4,6 @@
 declare const React: any;
 
 export function Foo() {
-    // No error; "const" is lowercase and therefore intrinsic.
-    return <const T extends/>
+  // No error; "konst" is lowercase and therefore intrinsic.
+  return <const T extends />;
 }

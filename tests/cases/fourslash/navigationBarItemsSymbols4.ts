@@ -20,75 +20,75 @@
 ////}
 
 verify.navigationTree({
-    "text": "<global>",
-    "kind": "script",
-    "childItems": [
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "_sym",
+      kind: "konst",
+    },
+    {
+      text: "MyClass",
+      kind: "class",
+      childItems: [
         {
-            "text": "_sym",
-            "kind": "const"
+          text: "constructor",
+          kind: "constructor",
         },
         {
-            "text": "MyClass",
-            "kind": "class",
-            "childItems": [
-                {
-                    "text": "constructor",
-                    "kind": "constructor"
-                },
-                {
-                    "text": "method",
-                    "kind": "method",
-                    "childItems": [
-                        {
-                            "text": "x",
-                            "kind": "const"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+          text: "method",
+          kind: "method",
+          childItems: [
+            {
+              text: "x",
+              kind: "konst",
+            },
+          ],
+        },
+      ],
+    },
+  ],
 });
 
 verify.navigationBar([
-    {
-        "text": "<global>",
-        "kind": "script",
-        "childItems": [
-            {
-                "text": "_sym",
-                "kind": "const"
-            },
-            {
-                "text": "MyClass",
-                "kind": "class"
-            }
-        ]
-    },
-    {
-        "text": "MyClass",
-        "kind": "class",
-        "childItems": [
-            {
-                "text": "constructor",
-                "kind": "constructor"
-            },
-            {
-                "text": "method",
-                "kind": "method",
-            }
-        ],
-        "indent": 1
-    },
-    {
-        "text": "method",
-        "kind": "method",
-        "childItems": [
-            {
-                "text": "x",
-                "kind": "const"
-            }
-        ],
-        "indent": 2
-    }
+  {
+    text: "<global>",
+    kind: "script",
+    childItems: [
+      {
+        text: "_sym",
+        kind: "konst",
+      },
+      {
+        text: "MyClass",
+        kind: "class",
+      },
+    ],
+  },
+  {
+    text: "MyClass",
+    kind: "class",
+    childItems: [
+      {
+        text: "constructor",
+        kind: "constructor",
+      },
+      {
+        text: "method",
+        kind: "method",
+      },
+    ],
+    indent: 1,
+  },
+  {
+    text: "method",
+    kind: "method",
+    childItems: [
+      {
+        text: "x",
+        kind: "konst",
+      },
+    ],
+    indent: 2,
+  },
 ]);

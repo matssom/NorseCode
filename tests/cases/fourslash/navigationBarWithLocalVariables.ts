@@ -6,18 +6,18 @@
 //// }
 
 verify.navigationTree({
-    "text": "<global>",
-    "kind": "script",
-    "childItems": [
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "x",
+      kind: "function",
+      childItems: [
         {
-            "text": "x",
-            "kind": "function",
-            "childItems": [
-                {
-                    "text": "x",
-                    "kind": "const"
-                }
-            ]
-        }
-    ]
+          text: "x",
+          kind: "konst",
+        },
+      ],
+    },
+  ],
 });

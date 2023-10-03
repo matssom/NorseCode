@@ -34,16 +34,18 @@
 ////fo/*dts*/
 
 verify.completions({
-    marker: ["b", "c", "ccheck", "cts", "d", "dcheck", "dts"],
-    includes: [{
-        name: "foo",
-        source: "/node_modules/a/index",
-        text: "const foo: 0",
-        kind: "const",
-        kindModifiers: "export,declare",
-        hasAction: true,
-        sourceDisplay: "a",
-        sortText: completion.SortText.AutoImportSuggestions
-    }],
-    preferences: { includeCompletionsForModuleExports: true },
+  marker: ["b", "c", "ccheck", "cts", "d", "dcheck", "dts"],
+  includes: [
+    {
+      name: "foo",
+      source: "/node_modules/a/index",
+      text: "const foo: 0",
+      kind: "konst",
+      kindModifiers: "export,declare",
+      hasAction: true,
+      sourceDisplay: "a",
+      sortText: completion.SortText.AutoImportSuggestions,
+    },
+  ],
+  preferences: { includeCompletionsForModuleExports: true },
 });

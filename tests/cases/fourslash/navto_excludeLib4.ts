@@ -9,16 +9,16 @@
 const [some] = test.ranges();
 
 verify.navigateTo({
-    pattern: "some",
-    excludeLibFiles: true,
-    fileName: "/node_modules/bar/index.d.ts",
-    expected: [
-        {
-            name: "someName",
-            kind: "const",
-            kindModifiers: "export,declare",
-            range: some,
-            matchKind: "prefix",
-        },
-    ],
+  pattern: "some",
+  excludeLibFiles: true,
+  fileName: "/node_modules/bar/index.d.ts",
+  expected: [
+    {
+      name: "someName",
+      kind: "konst",
+      kindModifiers: "export,declare",
+      range: some,
+      matchKind: "prefix",
+    },
+  ],
 });

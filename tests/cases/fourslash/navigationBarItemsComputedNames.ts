@@ -24,44 +24,44 @@
 ////}
 
 verify.navigationTree({
-    text: "<global>",
-    kind: "script",
-    childItems: [
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "a",
+      kind: "konst",
+    },
+    {
+      text: "C",
+      kind: "class",
+      childItems: [
         {
-            text: "a",
-            kind: "const"
+          text: "[a]",
+          kind: "method",
         },
         {
-            text: "C",
-            kind: "class",
-            childItems: [
-                {
-                    text: "[a]",
-                    kind: "method"
-                },
-                {
-                    text: "[E.A]",
-                    kind: "method"
-                },
-                {
-                    text: "[1]",
-                    kind: "method"
-                },
-                {
-                    text: "[\"foo\"]",
-                    kind: "method"
-                }
-            ],
+          text: "[E.A]",
+          kind: "method",
         },
         {
-            text: "E",
-            kind: "enum",
-            childItems: [
-                {
-                    text: "A",
-                    kind: "enum member"
-                },
-            ]
-        }
-    ]
+          text: "[1]",
+          kind: "method",
+        },
+        {
+          text: '["foo"]',
+          kind: "method",
+        },
+      ],
+    },
+    {
+      text: "E",
+      kind: "enum",
+      childItems: [
+        {
+          text: "A",
+          kind: "enum member",
+        },
+      ],
+    },
+  ],
 });

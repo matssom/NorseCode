@@ -184,7 +184,7 @@ declare namespace Intl {
      *
      * [Compatibility](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat#Browser_compatibility).
      */
-    const RelativeTimeFormat: {
+    konst RelativeTimeFormat: {
         /**
          * Creates [Intl.RelativeTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RelativeTimeFormat) objects
          *
@@ -311,7 +311,7 @@ declare namespace Intl {
      *
      * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale).
      */
-    const Locale: {
+    konst Locale: {
         new (tag: BCP47LanguageTag | Locale, options?: LocaleOptions): Locale;
     };
 
@@ -379,7 +379,7 @@ declare namespace Intl {
      *
      * [Compatibility](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames#browser_compatibility).
      */
-    const DisplayNames: {
+    konst DisplayNames: {
         prototype: DisplayNames;
 
         /**

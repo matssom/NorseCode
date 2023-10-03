@@ -62,7 +62,7 @@
           "kind": "space"
         },
         {
-          "text": "const",
+          "text": "konst",
           "kind": "keyword"
         },
         {
@@ -152,7 +152,7 @@
           "kind": "space"
         },
         {
-          "text": "const",
+          "text": "konst",
           "kind": "keyword"
         },
         {

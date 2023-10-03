@@ -143,11 +143,11 @@
     "defId": 1,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const g: number",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -321,11 +321,11 @@
     "defId": 1,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const s: number",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

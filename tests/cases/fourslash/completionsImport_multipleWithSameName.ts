@@ -18,43 +18,46 @@
 
 goTo.marker("");
 verify.completions({
-    marker: "",
-    exact: completion.globalsPlus([
-        {
-            name: "foo",
-            text: "var foo: number",
-            kind: "var",
-            kindModifiers: "declare",
-            sortText: completion.SortText.GlobalsOrKeywords
-        },
-        {
-            name: "foo",
-            source: "/a",
-            sourceDisplay: "./a",
-            text: "const foo: 0",
-            kind: "const",
-            kindModifiers: "export",
-            hasAction: true,
-            sortText: completion.SortText.AutoImportSuggestions
-        },
-        {
-            name: "foo",
-            source: "/b",
-            sourceDisplay: "./b",
-            text: "const foo: 1",
-            kind: "const",
-            kindModifiers: "export",
-            hasAction: true,
-            sortText: completion.SortText.AutoImportSuggestions
-        },
-    ], { noLib: true }),
-    preferences: { includeCompletionsForModuleExports: true },
+  marker: "",
+  exact: completion.globalsPlus(
+    [
+      {
+        name: "foo",
+        text: "var foo: number",
+        kind: "var",
+        kindModifiers: "declare",
+        sortText: completion.SortText.GlobalsOrKeywords,
+      },
+      {
+        name: "foo",
+        source: "/a",
+        sourceDisplay: "./a",
+        text: "const foo: 0",
+        kind: "konst",
+        kindModifiers: "export",
+        hasAction: true,
+        sortText: completion.SortText.AutoImportSuggestions,
+      },
+      {
+        name: "foo",
+        source: "/b",
+        sourceDisplay: "./b",
+        text: "const foo: 1",
+        kind: "konst",
+        kindModifiers: "export",
+        hasAction: true,
+        sortText: completion.SortText.AutoImportSuggestions,
+      },
+    ],
+    { noLib: true }
+  ),
+  preferences: { includeCompletionsForModuleExports: true },
 });
 verify.applyCodeActionFromCompletion("", {
-    name: "foo",
-    source: "/b",
-    description: `Add import from "./b"`,
-    newFileContent: `import { foo } from "./b";
+  name: "foo",
+  source: "/b",
+  description: `Add import from "./b"`,
+  newFileContent: `import { foo } from "./b";
 
 fo`,
 });

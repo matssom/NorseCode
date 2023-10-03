@@ -235,7 +235,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A 'const' initializer in an ambient context must be a string or numeric literal or literal enum reference.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[环境上下文中的 "const" 初始化表达式必须为字符串、数字文本或文本枚举引用。]]></Val>
+            <Val><![CDATA[环境上下文中的 "konst" 初始化表达式必须为字符串、数字文本或文本枚举引用。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -985,7 +985,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A variable whose type is a 'unique symbol' type must be 'const'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[类型为 "unique symbol" 的变量必须为 "const"。]]></Val>
+            <Val><![CDATA[类型为 "unique symbol" 的变量必须为 "konst"。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1210,7 +1210,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to all unresolved variables]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[将 "const" 添加到所有未解析变量]]></Val>
+            <Val><![CDATA[将 "konst" 添加到所有未解析变量]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1219,7 +1219,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to unresolved variable]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[将 "const" 添加到未解析的变量]]></Val>
+            <Val><![CDATA[将 "konst" 添加到未解析的变量]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4120,7 +4120,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[将 "const" 转换为 "let"]]></Val>
+            <Val><![CDATA[将 "konst" 转换为 "let"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16522,7 +16522,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' declarations can only be declared inside a block.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" 声明只能在块的内部声明。]]></Val>
+            <Val><![CDATA["konst" 声明只能在块的内部声明。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16531,7 +16531,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' declarations must be initialized.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[必须初始化 "const" 声明。]]></Val>
+            <Val><![CDATA[必须初始化 "konst" 声明。]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA['const' declarations must be initialized]]></Val>
@@ -16543,7 +16543,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' enum member initializer was evaluated to a non-finite value.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" 枚举成员初始化表达式的求值结果为非有限值。]]></Val>
+            <Val><![CDATA["konst" 枚举成员初始化表达式的求值结果为非有限值。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16552,7 +16552,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' enum member initializer was evaluated to disallowed value 'NaN'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" 枚举成员初始化表达式的求值结果为不允许使用的值 "NaN"。]]></Val>
+            <Val><![CDATA["konst" 枚举成员初始化表达式的求值结果为不允许使用的值 "NaN"。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16570,7 +16570,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' enums can only be used in property or index access expressions or the right hand side of an import declaration or export assignment or type query.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" 枚举仅可在属性、索引访问表达式、导入声明的右侧、导出分配或类型查询中使用。]]></Val>
+            <Val><![CDATA["konst" 枚举仅可在属性、索引访问表达式、导入声明的右侧、导出分配或类型查询中使用。]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA['const' enums can only be used in property or index access expressions or the right hand side of an import declaration or export assignment.]]></Val>
@@ -16798,7 +16798,7 @@
         <Str Cat="Text">
           <Val><![CDATA['let' is not allowed to be used as a name in 'let' or 'const' declarations.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["let" 不能用作 "let" 或 "const" 声明中的名称。]]></Val>
+            <Val><![CDATA["let" 不能用作 "let" 或 "konst" 声明中的名称。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

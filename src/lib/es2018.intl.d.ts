@@ -29,7 +29,7 @@ declare namespace Intl {
         select(n: number): LDMLPluralRule;
     }
 
-    const PluralRules: {
+    konst PluralRules: {
         new (locales?: string | string[], options?: PluralRulesOptions): PluralRules;
         (locales?: string | string[], options?: PluralRulesOptions): PluralRules;
 

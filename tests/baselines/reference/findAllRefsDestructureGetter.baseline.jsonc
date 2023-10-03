@@ -147,11 +147,11 @@
     "defId": 1,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const x: number",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -205,11 +205,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const x: number",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -387,11 +387,11 @@
     "defId": 1,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const y: number",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -445,11 +445,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const y: number",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

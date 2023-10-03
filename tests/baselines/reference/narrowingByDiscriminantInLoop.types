@@ -25,8 +25,8 @@ interface OperationMemberType {
 }
 
 interface ConstantMemberType {
-    type: "const";
->type : "const"
+    type: "konst";
+>type : "konst"
 
     idlType: string;
 >idlType : string
@@ -42,12 +42,12 @@ function insertInterface(callbackType: InterfaceType) {
 >callbackType : InterfaceType
 >members : IDLMemberTypes[]
 
-        if (memberType.type === "const") {
->memberType.type === "const" : boolean
->memberType.type : "operation" | "const"
+        if (memberType.type === "konst") {
+>memberType.type === "konst" : boolean
+>memberType.type : "operation" | "konst"
 >memberType : IDLMemberTypes
->type : "operation" | "const"
->"const" : "const"
+>type : "operation" | "konst"
+>"konst" : "konst"
 
             memberType.idlType;  // string
 >memberType.idlType : string
@@ -90,9 +90,9 @@ function insertInterface2(callbackType: InterfaceType) {
 
         if (memberType.type === "operation") {
 >memberType.type === "operation" : boolean
->memberType.type : "operation" | "const"
+>memberType.type : "operation" | "konst"
 >memberType : IDLMemberTypes
->type : "operation" | "const"
+>type : "operation" | "konst"
 >"operation" : "operation"
 
             memberType.idlType.origin;  // string
@@ -109,12 +109,12 @@ function foo(memberType: IDLMemberTypes) {
 >foo : (memberType: IDLMemberTypes) => void
 >memberType : IDLMemberTypes
 
-    if (memberType.type === "const") {
->memberType.type === "const" : boolean
->memberType.type : "operation" | "const"
+    if (memberType.type === "konst") {
+>memberType.type === "konst" : boolean
+>memberType.type : "operation" | "konst"
 >memberType : IDLMemberTypes
->type : "operation" | "const"
->"const" : "const"
+>type : "operation" | "konst"
+>"konst" : "konst"
 
         memberType.idlType;  // string
 >memberType.idlType : string

@@ -54,7 +54,7 @@ declare namespace Intl {
         isWordLike?: boolean;
     }
 
-    const Segmenter: {
+    konst Segmenter: {
         prototype: Segmenter;
 
         /**

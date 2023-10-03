@@ -236,7 +236,7 @@ Info seq  [hh:mm:ss:mss] response:
         "entries": [
           {
             "name": "foo",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,

@@ -147,7 +147,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "d",
     "containerName": "",
     "isLocal": false,

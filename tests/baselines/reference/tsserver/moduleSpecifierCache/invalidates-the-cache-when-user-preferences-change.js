@@ -405,7 +405,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "const",
+            "name": "konst",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -730,7 +730,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "foo",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -898,7 +898,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "const",
+            "name": "konst",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -1223,7 +1223,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "foo",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1388,7 +1388,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "const",
+            "name": "konst",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -1713,7 +1713,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "foo",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,

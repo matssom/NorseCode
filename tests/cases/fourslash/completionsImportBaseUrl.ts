@@ -16,16 +16,16 @@
 
 // Test that it prefers a relative import (see sourceDisplay).
 verify.completions({
-    marker: "",
-    includes: {
-        name: "foo",
-        source: "/src/a",
-        sourceDisplay: "./a",
-        text: "const foo: 0",
-        kind: "const",
-        kindModifiers: "export",
-        hasAction: true,
-        sortText: completion.SortText.AutoImportSuggestions
-    },
-    preferences: { includeCompletionsForModuleExports: true },
+  marker: "",
+  includes: {
+    name: "foo",
+    source: "/src/a",
+    sourceDisplay: "./a",
+    text: "const foo: 0",
+    kind: "konst",
+    kindModifiers: "export",
+    hasAction: true,
+    sortText: completion.SortText.AutoImportSuggestions,
+  },
+  preferences: { includeCompletionsForModuleExports: true },
 });

@@ -181,7 +181,7 @@ declare namespace foo {
     export { _catch as catch };
     let _class: number;
     export { _class as class };
-    let _const: number;
+    let _konst: number;
     export { _const as const };
     let _continue: number;
     export { _continue as continue };

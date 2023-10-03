@@ -17,7 +17,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = 0",
     "displayParts": [
      {
@@ -73,7 +73,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = 0",
     "displayParts": [
      {
@@ -136,11 +136,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const T: 0",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -188,7 +188,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = 0",
     "displayParts": [
      {
@@ -244,11 +244,11 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const T: 0",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

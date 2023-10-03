@@ -40,7 +40,7 @@
   [
    {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "g",
     "containerName": "",
     "isLocal": false,
@@ -79,7 +79,7 @@
   [
    {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "h",
     "containerName": "",
     "isLocal": false,
@@ -182,7 +182,7 @@
   [
    {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "j",
     "containerName": "",
     "isLocal": false,
@@ -349,7 +349,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "MyComponent2",
     "containerName": "",
     "isLocal": false,
@@ -386,7 +386,7 @@
   [
    {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "MyComponent2",
     "containerName": "",
     "isLocal": false,
@@ -421,7 +421,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "MyComponent3",
     "containerName": "",
     "isLocal": false,
@@ -457,7 +457,7 @@
   [
    {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "MyComponent3",
     "containerName": "",
     "isLocal": false,

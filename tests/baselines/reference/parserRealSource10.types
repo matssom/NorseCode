@@ -844,8 +844,8 @@ module TypeScript {
 >ErrorRecoverySet : any
 >TypeScriptS : any
 
-    setTokenInfo(TokenID.Const, Reservation.TypeScriptAndJSFuture, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "const", ErrorRecoverySet.Var);
->setTokenInfo(TokenID.Const, Reservation.TypeScriptAndJSFuture, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "const", ErrorRecoverySet.Var) : void
+    setTokenInfo(TokenID.Const, Reservation.TypeScriptAndJSFuture, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "konst", ErrorRecoverySet.Var);
+>setTokenInfo(TokenID.Const, Reservation.TypeScriptAndJSFuture, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "konst", ErrorRecoverySet.Var) : void
 >setTokenInfo : (tokenId: TokenID, reservation: number, binopPrecedence: number, binopNodeType: number, unopPrecedence: number, unopNodeType: number, text: string, ers: ErrorRecoverySet) => void
 >TokenID.Const : TokenID.Const
 >TokenID : typeof TokenID
@@ -865,7 +865,7 @@ module TypeScript {
 >NodeType.None : any
 >NodeType : any
 >None : any
->"const" : "const"
+>"konst" : "konst"
 >ErrorRecoverySet.Var : any
 >ErrorRecoverySet : any
 >Var : any

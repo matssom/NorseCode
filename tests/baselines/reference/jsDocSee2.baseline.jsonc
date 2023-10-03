@@ -6,8 +6,6 @@
 // const b = ""
 // --- (line: 5) skipped ---
 
-
-
 // === goToDefinition ===
 // === /tests/cases/fourslash/jsDocSee2.ts ===
 // /** @see {foooo} unknown reference*/
@@ -17,8 +15,6 @@
 // /** @see foooo unknown reference without brace*/
 // const c = ""
 // --- (line: 7) skipped ---
-
-
 
 // === goToDefinition ===
 // === /tests/cases/fourslash/jsDocSee2.ts ===
@@ -32,8 +28,6 @@
 // const d = ""
 // --- (line: 9) skipped ---
 
-
-
 // === goToDefinition ===
 // === /tests/cases/fourslash/jsDocSee2.ts ===
 // --- (line: 3) skipped ---
@@ -45,8 +39,6 @@
 // /** @see {d@fff} partial reference */
 // const e = ""
 // --- (line: 11) skipped ---
-
-
 
 // === goToDefinition ===
 // === /tests/cases/fourslash/jsDocSee2.ts ===
@@ -62,20 +54,18 @@
 // /** @see d@{fff} partial reference */
 // const g = ""
 
-  // === Details ===
-  [
-   {
-    "kind": "const",
+// === Details ===
+[
+  {
+    "kind": "konst",
     "name": "d",
     "containerName": "",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false,
     "failedAliasResolution": false
-   }
-  ]
-
-
+  }
+]
 
 // === goToDefinition ===
 // === /tests/cases/fourslash/jsDocSee2.ts ===
@@ -87,8 +77,6 @@
 // const f = ""
 // /** @see d@{fff} partial reference */
 // const g = ""
-
-
 
 // === goToDefinition ===
 // === /tests/cases/fourslash/jsDocSee2.ts ===

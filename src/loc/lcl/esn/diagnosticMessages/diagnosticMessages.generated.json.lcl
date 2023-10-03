@@ -226,7 +226,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Las aserciones "const" solo pueden aplicarse a las referencias a miembros de enumeración o a literales de cadena, numéricos, booleanos, de matriz o de objeto.]]></Val>
+            <Val><![CDATA[Las aserciones "konst" solo pueden aplicarse a las referencias a miembros de enumeración o a literales de cadena, numéricos, booleanos, de matriz o de objeto.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -244,7 +244,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A 'const' initializer in an ambient context must be a string or numeric literal or literal enum reference.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Un inicializador "const" en un contexto de ambiente debe ser un literal de cadena o numérico o bien una referencia de enumeración de literal.]]></Val>
+            <Val><![CDATA[Un inicializador "konst" en un contexto de ambiente debe ser un literal de cadena o numérico o bien una referencia de enumeración de literal.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -994,7 +994,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A variable whose type is a 'unique symbol' type must be 'const'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Una variable cuyo tipo sea "unique symbol" debe ser "const".]]></Val>
+            <Val><![CDATA[Una variable cuyo tipo sea "unique symbol" debe ser "konst".]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1219,7 +1219,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to all unresolved variables]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Agregar "const" a todas las variables no resueltas]]></Val>
+            <Val><![CDATA[Agregar "konst" a todas las variables no resueltas]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1228,7 +1228,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to unresolved variable]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Agregar "const" a la variable no resuelta]]></Val>
+            <Val><![CDATA[Agregar "konst" a la variable no resuelta]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4033,7 +4033,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert all 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Convertir todo "const" en "let"]]></Val>
+            <Val><![CDATA[Convertir todo "konst" en "let"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4132,7 +4132,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Convertir "const" en "let"]]></Val>
+            <Val><![CDATA[Convertir "konst" en "let"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16534,7 +16534,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' declarations can only be declared inside a block.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Las declaraciones "const" solo se pueden declarar dentro de un bloque.]]></Val>
+            <Val><![CDATA[Las declaraciones "konst" solo se pueden declarar dentro de un bloque.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16543,7 +16543,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' declarations must be initialized.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Las declaraciones "const" deben inicializarse.]]></Val>
+            <Val><![CDATA[Las declaraciones "konst" deben inicializarse.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA['const' declarations must be initialized]]></Val>
@@ -16555,7 +16555,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' enum member initializer was evaluated to a non-finite value.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[El inicializador de miembros de enumeración "const" se evaluó con un valor no finito.]]></Val>
+            <Val><![CDATA[El inicializador de miembros de enumeración "konst" se evaluó con un valor no finito.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16564,7 +16564,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' enum member initializer was evaluated to disallowed value 'NaN'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[El inicializador de miembros de enumeración "const" se evaluó con un valor "NaN" no permitido.]]></Val>
+            <Val><![CDATA[El inicializador de miembros de enumeración "konst" se evaluó con un valor "NaN" no permitido.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16582,7 +16582,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' enums can only be used in property or index access expressions or the right hand side of an import declaration or export assignment or type query.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Las enumeraciones "const" solo se pueden usar en expresiones de acceso de propiedad o índice, o en la parte derecha de una declaración de importación, una asignación de exportación o una consulta de tipo.]]></Val>
+            <Val><![CDATA[Las enumeraciones "konst" solo se pueden usar en expresiones de acceso de propiedad o índice, o en la parte derecha de una declaración de importación, una asignación de exportación o una consulta de tipo.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA['const' enums can only be used in property or index access expressions or the right hand side of an import declaration or export assignment.]]></Val>
@@ -16810,7 +16810,7 @@
         <Str Cat="Text">
           <Val><![CDATA['let' is not allowed to be used as a name in 'let' or 'const' declarations.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[No se permite usar "let" como nombre en las declaraciones "let" o "const".]]></Val>
+            <Val><![CDATA[No se permite usar "let" como nombre en las declaraciones "let" o "konst".]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

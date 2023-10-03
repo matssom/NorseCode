@@ -519,7 +519,7 @@
     "name": "const enum E",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

@@ -17,26 +17,29 @@
 ////fo/**/
 
 verify.completions({
-    marker: "",
-    exact: completion.globalsPlus([
-        {
-            name: "foo",
-            source: "/foo/lib/foo",
-            sourceDisplay: "./foo",
-            text: "const foo: 0",
-            kind: "const",
-            kindModifiers: "export",
-            hasAction: true,
-            sortText: completion.SortText.AutoImportSuggestions
-        },
-    ], { noLib: true }),
-    preferences: { includeCompletionsForModuleExports: true },
+  marker: "",
+  exact: completion.globalsPlus(
+    [
+      {
+        name: "foo",
+        source: "/foo/lib/foo",
+        sourceDisplay: "./foo",
+        text: "const foo: 0",
+        kind: "konst",
+        kindModifiers: "export",
+        hasAction: true,
+        sortText: completion.SortText.AutoImportSuggestions,
+      },
+    ],
+    { noLib: true }
+  ),
+  preferences: { includeCompletionsForModuleExports: true },
 });
 verify.applyCodeActionFromCompletion("", {
-    name: "foo",
-    source: "/foo/lib/foo",
-    description: `Add import from "./foo"`,
-    newFileContent: `import { foo } from "./foo";
+  name: "foo",
+  source: "/foo/lib/foo",
+  description: `Add import from "./foo"`,
+  newFileContent: `import { foo } from "./foo";
 
 fo`,
 });

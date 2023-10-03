@@ -79,7 +79,7 @@ var bigObject = {
     catch: 0,
     class: 0,
     continue: 0,
-    const: 0,
+    konst: 0,
 
     debugger: 0,
     declare: 0,
@@ -351,7 +351,7 @@ var bigObject = {
     catch: 0,
     class: 0,
     continue: 0,
-    const: 0,
+    konst: 0,
     debugger: 0,
     declare: 0,
     default: 0,
@@ -467,7 +467,7 @@ var bigEnum;
     bigEnum[bigEnum["catch"] = 19] = "catch";
     bigEnum[bigEnum["class"] = 20] = "class";
     bigEnum[bigEnum["continue"] = 21] = "continue";
-    bigEnum[bigEnum["const"] = 22] = "const";
+    bigEnum[bigEnum["konst"] = 22] = "konst";
     bigEnum[bigEnum["debugger"] = 23] = "debugger";
     bigEnum[bigEnum["declare"] = 24] = "declare";
     bigEnum[bigEnum["default"] = 25] = "default";

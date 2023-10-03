@@ -190,7 +190,7 @@ Info seq  [hh:mm:ss:mss] response:
       "response": [
         {
           "name": "abcdef",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "export",
           "isCaseSensitive": true,
           "matchKind": "exact",

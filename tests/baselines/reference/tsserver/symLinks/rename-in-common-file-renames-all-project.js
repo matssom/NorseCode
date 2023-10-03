@@ -357,7 +357,7 @@ Info seq  [hh:mm:ss:mss] response:
           "canRename": true,
           "displayName": "C",
           "fullDisplayName": "\"/users/username/projects/a/c/fc\".C",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "export",
           "triggerSpan": {
             "start": {

@@ -10,7 +10,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "c",
     "containerName": "",
     "isLocal": false,

@@ -13,26 +13,25 @@
 goTo.file("/a.ts");
 
 verify.completions({
-    marker: "",
-    includes: {
-        name: "concat",
-        source: "/node_modules/bar/concat",
-        sourceDisplay: "bar/concat",
-        text: "const concat: 0",
-        kind: "const",
-        kindModifiers: "export,declare",
-        hasAction: true,
-        sortText: completion.SortText.AutoImportSuggestions
-    },
-    preferences: { includeCompletionsForModuleExports: true },
+  marker: "",
+  includes: {
+    name: "concat",
+    source: "/node_modules/bar/concat",
+    sourceDisplay: "bar/concat",
+    text: "const concat: 0",
+    kind: "konst",
+    kindModifiers: "export,declare",
+    hasAction: true,
+    sortText: completion.SortText.AutoImportSuggestions,
+  },
+  preferences: { includeCompletionsForModuleExports: true },
 });
 
 verify.applyCodeActionFromCompletion("", {
-    name: "concat",
-    source: "/node_modules/bar/concat",
-    description: `Add import from "bar/concat"`,
-    newFileContent:
-`import { concat } from "bar/concat";
+  name: "concat",
+  source: "/node_modules/bar/concat",
+  description: `Add import from "bar/concat"`,
+  newFileContent: `import { concat } from "bar/concat";
 
 export {};
 conca`,

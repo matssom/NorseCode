@@ -5,43 +5,43 @@
 ////const z = 2;
 
 verify.navigationTree({
-    "text": "<global>",
-    "kind": "script",
-    "childItems": [
-        {
-            "text": "x",
-            "kind": "var"
-        },
-        {
-            "text": "y",
-            "kind": "let"
-        },
-        {
-            "text": "z",
-            "kind": "const"
-        }
-    ]
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "x",
+      kind: "var",
+    },
+    {
+      text: "y",
+      kind: "let",
+    },
+    {
+      text: "z",
+      kind: "konst",
+    },
+  ],
 });
 
 verify.navigationBar([
-    {
-        "text": "<global>",
-        "kind": "script",
-        "childItems": [
-            {
-                "text": "x",
-                "kind": "var"
-            },
-            {
-                "text": "y",
-                "kind": "let"
-            },
-            {
-                "text": "z",
-                "kind": "const"
-            }
-        ]
-    }
+  {
+    text: "<global>",
+    kind: "script",
+    childItems: [
+      {
+        text: "x",
+        kind: "var",
+      },
+      {
+        text: "y",
+        kind: "let",
+      },
+      {
+        text: "z",
+        kind: "konst",
+      },
+    ],
+  },
 ]);
 
 // @Filename: file2.ts
@@ -52,41 +52,41 @@ verify.navigationBar([
 goTo.file("file2.ts");
 
 verify.navigationTree({
-    "text": "<global>",
-    "kind": "script",
-    "childItems": [
-        {
-            "text": "a",
-            "kind": "var"
-        },
-        {
-            "text": "b",
-            "kind": "let"
-        },
-        {
-            "text": "c",
-            "kind": "const"
-        }
-    ]
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "a",
+      kind: "var",
+    },
+    {
+      text: "b",
+      kind: "let",
+    },
+    {
+      text: "c",
+      kind: "konst",
+    },
+  ],
 });
 
 verify.navigationBar([
-    {
-        "text": "<global>",
-        "kind": "script",
-        "childItems": [
-            {
-                "text": "a",
-                "kind": "var"
-            },
-            {
-                "text": "b",
-                "kind": "let"
-            },
-            {
-                "text": "c",
-                "kind": "const"
-            }
-        ]
-    }
+  {
+    text: "<global>",
+    kind: "script",
+    childItems: [
+      {
+        text: "a",
+        kind: "var",
+      },
+      {
+        text: "b",
+        kind: "let",
+      },
+      {
+        text: "c",
+        kind: "konst",
+      },
+    ],
+  },
 ]);

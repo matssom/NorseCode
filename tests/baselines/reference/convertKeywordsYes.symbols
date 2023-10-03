@@ -239,7 +239,7 @@ var bigObject = {
     continue: 0,
 >continue : Symbol(continue, Decl(convertKeywordsYes.ts, 76, 13))
 
-    const: 0,
+    konst: 0,
 >const : Symbol(const, Decl(convertKeywordsYes.ts, 77, 16))
 
     debugger: 0,

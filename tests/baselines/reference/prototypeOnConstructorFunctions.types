@@ -2,7 +2,7 @@
 
 === prototypeOnConstructorFunctions.ts ===
 interface I1 {
-    const: new (options?, element?) => any;
+    konst: new (options?, element?) => any;
 >const : new (options?: any, element?: any) => any
 >options : any
 >element : any

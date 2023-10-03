@@ -48,7 +48,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -129,11 +129,11 @@
     "defId": 1,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const SubmissionComp: (submission: SubmissionProps) => div",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -228,11 +228,11 @@
     "defId": 0,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const SubmissionComp: (submission: SubmissionProps) => div",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -317,7 +317,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

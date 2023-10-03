@@ -666,7 +666,7 @@ Info seq  [hh:mm:ss:mss] response:
           "canRename": true,
           "displayName": "myConst",
           "fullDisplayName": "container.myConst",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "export",
           "triggerSpan": {
             "start": {

@@ -706,7 +706,7 @@ module TypeScript {
 >OperatorPrecedence : Symbol(OperatorPrecedence, Decl(parserRealSource10.ts, 142, 39))
 >None : Symbol(OperatorPrecedence.None, Decl(parserRealSource10.ts, 144, 36))
 
-    setTokenInfo(TokenID.Const, Reservation.TypeScriptAndJSFuture, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "const", ErrorRecoverySet.Var);
+    setTokenInfo(TokenID.Const, Reservation.TypeScriptAndJSFuture, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "konst", ErrorRecoverySet.Var);
 >setTokenInfo : Symbol(setTokenInfo, Decl(parserRealSource10.ts, 179, 5))
 >TokenID.Const : Symbol(TokenID.Const, Decl(parserRealSource10.ts, 13, 14))
 >TokenID : Symbol(TokenID, Decl(parserRealSource10.ts, 5, 19))

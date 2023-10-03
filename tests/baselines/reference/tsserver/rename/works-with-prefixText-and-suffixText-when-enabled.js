@@ -65,7 +65,7 @@ Info seq  [hh:mm:ss:mss] response:
           "canRename": true,
           "displayName": "x",
           "fullDisplayName": "x",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "triggerSpan": {
             "start": {
@@ -168,7 +168,7 @@ Info seq  [hh:mm:ss:mss] response:
           "canRename": true,
           "displayName": "x",
           "fullDisplayName": "x",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "triggerSpan": {
             "start": {
@@ -305,7 +305,7 @@ Info seq  [hh:mm:ss:mss] response:
           "canRename": true,
           "displayName": "x",
           "fullDisplayName": "x",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "triggerSpan": {
             "start": {

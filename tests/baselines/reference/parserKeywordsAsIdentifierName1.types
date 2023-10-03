@@ -2,8 +2,8 @@
 
 === parserKeywordsAsIdentifierName1.ts ===
 var big = {
->big : { break: number; super: number; const: number; }
->{   break : 0,   super : 0,   const : 0} : { break: number; super: number; const: number; }
+>big : { break: number; super: number; konst: number; }
+>{   break : 0,   super : 0,   const : 0} : { break: number; super: number; konst: number; }
 
    break : 0,
 >break : number

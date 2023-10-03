@@ -22,11 +22,11 @@
     "defId": 0,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const a: 0",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -75,7 +75,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -144,11 +144,11 @@
     "defId": 0,
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "const a: 0",
     "displayParts": [
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -197,7 +197,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -286,7 +286,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -359,7 +359,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -448,7 +448,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -513,7 +513,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -610,7 +610,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -675,7 +675,7 @@
       "kind": "space"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

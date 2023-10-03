@@ -12,24 +12,24 @@
 ////f/**/;
 
 verify.completions({
-    marker: "",
-    includes: {
-        name: "foo",
-        source: "/a",
-        sourceDisplay: "./a",
-        text: "const N.foo: 0",
-        kind: "const",
-        kindModifiers: "export,declare",
-        hasAction: true,
-        sortText: completion.SortText.AutoImportSuggestions
-    },
-    preferences: { includeCompletionsForModuleExports: true },
-});
-verify.applyCodeActionFromCompletion("", {
+  marker: "",
+  includes: {
     name: "foo",
     source: "/a",
-    description: `Add import from "./a"`,
-    newFileContent: `import { foo } from "./a";
+    sourceDisplay: "./a",
+    text: "const N.foo: 0",
+    kind: "konst",
+    kindModifiers: "export,declare",
+    hasAction: true,
+    sortText: completion.SortText.AutoImportSuggestions,
+  },
+  preferences: { includeCompletionsForModuleExports: true },
+});
+verify.applyCodeActionFromCompletion("", {
+  name: "foo",
+  source: "/a",
+  description: `Add import from "./a"`,
+  newFileContent: `import { foo } from "./a";
 
 f;`,
 });

@@ -4,27 +4,27 @@
 ////export const Test = {}
 
 verify.navigationTree({
-    "text": "\"navigationBarJsDocCommentWithNoTags\"",
-    "kind": "module",
-    "childItems": [
-        {
-            "text": "Test",
-            "kind": "const",
-            "kindModifiers": "export"
-        }
-    ]
+  text: '"navigationBarJsDocCommentWithNoTags"',
+  kind: "module",
+  childItems: [
+    {
+      text: "Test",
+      kind: "konst",
+      kindModifiers: "export",
+    },
+  ],
 });
 
 verify.navigationBar([
-    {
-        "text": "\"navigationBarJsDocCommentWithNoTags\"",
-        "kind": "module",
-        "childItems": [
-            {
-                "text": "Test",
-                "kind": "const",
-                "kindModifiers": "export"
-            }
-        ]
-    }
+  {
+    text: '"navigationBarJsDocCommentWithNoTags"',
+    kind: "module",
+    childItems: [
+      {
+        text: "Test",
+        kind: "konst",
+        kindModifiers: "export",
+      },
+    ],
+  },
 ]);

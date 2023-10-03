@@ -6,63 +6,63 @@
 ////export function exportedFunction() { }
 
 verify.navigationBar([
-    {
-        "text": "\"navigationBarItemsNamedArrowFunctions\"",
-        "kind": "module",
-        "childItems": [
-            {
-                "text": "exportedFunction",
-                "kind": "function",
-                "kindModifiers": "export"
-            },
-            {
-                "text": "func",
-                "kind": "const",
-                "kindModifiers": "export",
-            },
-            {
-                "text": "func2",
-                "kind": "const",
-                "kindModifiers": "export",
-            },
-            {
-                "text": "value",
-                "kind": "const",
-                "kindModifiers": "export"
-            }
-        ]
-    },
-    {
-        "text": "exportedFunction",
-        "kind": "function",
-        "kindModifiers": "export",
-        "indent": 1
-    }
+  {
+    text: '"navigationBarItemsNamedArrowFunctions"',
+    kind: "module",
+    childItems: [
+      {
+        text: "exportedFunction",
+        kind: "function",
+        kindModifiers: "export",
+      },
+      {
+        text: "func",
+        kind: "konst",
+        kindModifiers: "export",
+      },
+      {
+        text: "func2",
+        kind: "konst",
+        kindModifiers: "export",
+      },
+      {
+        text: "value",
+        kind: "konst",
+        kindModifiers: "export",
+      },
+    ],
+  },
+  {
+    text: "exportedFunction",
+    kind: "function",
+    kindModifiers: "export",
+    indent: 1,
+  },
 ]);
 
 verify.navigationTree({
-    "text": "\"navigationBarItemsNamedArrowFunctions\"",
-    "kind": "module",
-    "childItems": [
-        {
-            "text": "exportedFunction",
-            "kind": "function",
-            "kindModifiers": "export"
-        },
-        {
-            "text": "func",
-            "kind": "const",
-            "kindModifiers": "export"
-        },
-        {
-            "text": "func2",
-            "kind": "const",
-            "kindModifiers": "export"
-        },
-        {
-            "text": "value",
-            "kind": "const",
-            "kindModifiers": "export"
-        }
-    ]
+  text: '"navigationBarItemsNamedArrowFunctions"',
+  kind: "module",
+  childItems: [
+    {
+      text: "exportedFunction",
+      kind: "function",
+      kindModifiers: "export",
+    },
+    {
+      text: "func",
+      kind: "konst",
+      kindModifiers: "export",
+    },
+    {
+      text: "func2",
+      kind: "konst",
+      kindModifiers: "export",
+    },
+    {
+      text: "value",
+      kind: "konst",
+      kindModifiers: "export",
+    },
+  ],
 });

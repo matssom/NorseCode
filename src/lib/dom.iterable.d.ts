@@ -30,7 +30,10 @@ interface NodeList {
      * @param callbackfn  A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the list.
      * @param thisArg  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
      */
-    forEach(callbackfn: (value: Node, index: number, listObj: NodeList) => void, thisArg?: any): void;
+    forEach(
+        callbackfn: (value: Node, index: number, listObj: NodeList) => void,
+        thisArg?: any
+    ): void;
     /**
      * Returns an list of keys in the list
      */
@@ -55,7 +58,14 @@ interface NodeListOf<TNode extends Node> {
      * @param callbackfn  A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the list.
      * @param thisArg  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
      */
-    forEach(callbackfn: (value: TNode, index: number, listObj: NodeListOf<TNode>) => void, thisArg?: any): void;
+    forEach(
+        callbackfn: (
+            value: TNode,
+            index: number,
+            listObj: NodeListOf<TNode>
+        ) => void,
+        thisArg?: any
+    ): void;
     /**
      * Returns an list of keys in the list
      */

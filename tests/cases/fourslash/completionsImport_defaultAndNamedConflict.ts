@@ -11,31 +11,34 @@
 
 verify.completions({
   marker: "",
-  exact: completion.globalsPlus([
-    {
-      name: "someModule",
-      source: "/someModule",
-      sourceDisplay: "./someModule",
-      text: "(property) default: 1",
-      kind: "property",
-      kindModifiers: "export",
-      hasAction: true,
-      sortText: completion.SortText.AutoImportSuggestions
-    },
-    {
-      name: "someModule",
-      source: "/someModule",
-      sourceDisplay: "./someModule",
-      text: "const someModule: 0",
-      kind: "const",
-      kindModifiers: "export",
-      hasAction: true,
-      sortText: completion.SortText.AutoImportSuggestions
-    },
-  ], { noLib: true }),
+  exact: completion.globalsPlus(
+    [
+      {
+        name: "someModule",
+        source: "/someModule",
+        sourceDisplay: "./someModule",
+        text: "(property) default: 1",
+        kind: "property",
+        kindModifiers: "export",
+        hasAction: true,
+        sortText: completion.SortText.AutoImportSuggestions,
+      },
+      {
+        name: "someModule",
+        source: "/someModule",
+        sourceDisplay: "./someModule",
+        text: "const someModule: 0",
+        kind: "konst",
+        kindModifiers: "export",
+        hasAction: true,
+        sortText: completion.SortText.AutoImportSuggestions,
+      },
+    ],
+    { noLib: true }
+  ),
   preferences: {
-    includeCompletionsForModuleExports: true
-  }
+    includeCompletionsForModuleExports: true,
+  },
 });
 
 verify.applyCodeActionFromCompletion("", {
@@ -45,5 +48,5 @@ verify.applyCodeActionFromCompletion("", {
   description: `Add import from "./someModule"`,
   newFileContent: `import someModule from "./someModule";
 
-someMo`
+someMo`,
 });

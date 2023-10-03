@@ -17,7 +17,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = number\nconst T: 1",
     "displayParts": [
      {
@@ -53,7 +53,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -101,7 +101,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = number\nconst T: 1",
     "displayParts": [
      {
@@ -137,7 +137,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -185,7 +185,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = number\nconst T: 1",
     "displayParts": [
      {
@@ -221,7 +221,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {
@@ -269,7 +269,7 @@
    {
     "containerKind": "",
     "containerName": "",
-    "kind": "const",
+    "kind": "konst",
     "name": "type T = number\nconst T: 1",
     "displayParts": [
      {
@@ -305,7 +305,7 @@
       "kind": "lineBreak"
      },
      {
-      "text": "const",
+      "text": "konst",
       "kind": "keyword"
      },
      {

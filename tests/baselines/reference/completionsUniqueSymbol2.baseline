@@ -53,7 +53,7 @@
       "entries": [
         {
           "name": "a",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "insertText": "[a]",
@@ -63,7 +63,7 @@
           },
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -207,7 +207,7 @@
         },
         {
           "name": "b",
-          "kind": "const",
+          "kind": "konst",
           "kindModifiers": "",
           "sortText": "11",
           "insertText": "[b]",
@@ -217,7 +217,7 @@
           },
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {

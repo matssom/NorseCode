@@ -8,19 +8,19 @@
 //     f/*GOTO DEF*/oo
 // }
 
-  // === Details ===
-  [
-   {
+// === Details ===
+[
+  {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "foo",
     "containerName": "",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false,
     "failedAliasResolution": false
-   },
-   {
+  },
+  {
     "defId": 1,
     "kind": "method",
     "name": "foo",
@@ -28,5 +28,5 @@
     "isLocal": false,
     "isAmbient": false,
     "unverified": false
-   }
-  ]
+  }
+]

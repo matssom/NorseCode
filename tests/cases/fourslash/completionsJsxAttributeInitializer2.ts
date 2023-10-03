@@ -13,10 +13,16 @@
 ////<div a /*2*/ />
 
 verify.completions(
-    {
-        marker: "0",
-        includes: { name: "foo", text: "const foo: 0", kind: "const", insertText: "{foo}", replacementSpan: test.ranges()[0] },
-        preferences: { includeInsertTextCompletions: true },
+  {
+    marker: "0",
+    includes: {
+      name: "foo",
+      text: "const foo: 0",
+      kind: "konst",
+      insertText: "{foo}",
+      replacementSpan: test.ranges()[0],
     },
-    { marker: ["1", "2"], exact: "b" },
+    preferences: { includeInsertTextCompletions: true },
+  },
+  { marker: ["1", "2"], exact: "b" }
 );

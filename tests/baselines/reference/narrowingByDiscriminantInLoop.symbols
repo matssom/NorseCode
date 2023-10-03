@@ -37,7 +37,7 @@ interface OperationMemberType {
 interface ConstantMemberType {
 >ConstantMemberType : Symbol(ConstantMemberType, Decl(narrowingByDiscriminantInLoop.ts, 15, 1))
 
-    type: "const";
+    type: "konst";
 >type : Symbol(ConstantMemberType.type, Decl(narrowingByDiscriminantInLoop.ts, 17, 30))
 
     idlType: string;
@@ -55,7 +55,7 @@ function insertInterface(callbackType: InterfaceType) {
 >callbackType : Symbol(callbackType, Decl(narrowingByDiscriminantInLoop.ts, 22, 25))
 >members : Symbol(InterfaceType.members, Decl(narrowingByDiscriminantInLoop.ts, 8, 25))
 
-        if (memberType.type === "const") {
+        if (memberType.type === "konst") {
 >memberType.type : Symbol(type, Decl(narrowingByDiscriminantInLoop.ts, 12, 31), Decl(narrowingByDiscriminantInLoop.ts, 17, 30))
 >memberType : Symbol(memberType, Decl(narrowingByDiscriminantInLoop.ts, 23, 14))
 >type : Symbol(type, Decl(narrowingByDiscriminantInLoop.ts, 12, 31), Decl(narrowingByDiscriminantInLoop.ts, 17, 30))
@@ -117,7 +117,7 @@ function foo(memberType: IDLMemberTypes) {
 >memberType : Symbol(memberType, Decl(narrowingByDiscriminantInLoop.ts, 42, 13))
 >IDLMemberTypes : Symbol(IDLMemberTypes, Decl(narrowingByDiscriminantInLoop.ts, 0, 0))
 
-    if (memberType.type === "const") {
+    if (memberType.type === "konst") {
 >memberType.type : Symbol(type, Decl(narrowingByDiscriminantInLoop.ts, 12, 31), Decl(narrowingByDiscriminantInLoop.ts, 17, 30))
 >memberType : Symbol(memberType, Decl(narrowingByDiscriminantInLoop.ts, 42, 13))
 >type : Symbol(type, Decl(narrowingByDiscriminantInLoop.ts, 12, 31), Decl(narrowingByDiscriminantInLoop.ts, 17, 30))

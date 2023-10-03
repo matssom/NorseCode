@@ -168,7 +168,7 @@ Info seq  [hh:mm:ss:mss] response:
         "entries": [
           {
             "name": "foo",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -216,10 +216,10 @@ Info seq  [hh:mm:ss:mss] response:
         {
           "name": "foo",
           "kindModifiers": "export",
-          "kind": "const",
+          "kind": "konst",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {
@@ -317,10 +317,10 @@ Info seq  [hh:mm:ss:mss] response:
         {
           "name": "foo",
           "kindModifiers": "export",
-          "kind": "const",
+          "kind": "konst",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             },
             {

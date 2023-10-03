@@ -305,7 +305,7 @@ var E;
     E[E["char"] = 7] = "char";
     E[E["class"] = 8] = "class";
     E[E["continue"] = 9] = "continue";
-    E[E["const"] = 10] = "const";
+    E[E["konst"] = 10] = "konst";
     E[E["debugger"] = 11] = "debugger";
     E[E["default"] = 12] = "default";
     E[E["delete"] = 13] = "delete";

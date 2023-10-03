@@ -1371,7 +1371,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "const",
+            "name": "konst",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -1696,7 +1696,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "exp",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "declare",
             "sortText": "16",
             "hasAction": true,
@@ -1709,7 +1709,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S0_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1729,7 +1729,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S1_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1749,7 +1749,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S10_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1769,7 +1769,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S11_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1789,7 +1789,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S12_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1809,7 +1809,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S13_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1829,7 +1829,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S14_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1849,7 +1849,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S15_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1869,7 +1869,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S16_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1889,7 +1889,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S17_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1909,7 +1909,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S18_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1929,7 +1929,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S19_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1949,7 +1949,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S2_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1969,7 +1969,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S20_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -1989,7 +1989,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S21_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2009,7 +2009,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S22_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2029,7 +2029,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S23_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2049,7 +2049,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S24_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2069,7 +2069,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S25_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2089,7 +2089,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S26_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2109,7 +2109,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S27_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2129,7 +2129,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S28_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2149,7 +2149,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S29_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2169,7 +2169,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S3_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2189,7 +2189,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S30_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2209,7 +2209,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S31_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2229,7 +2229,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S32_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2249,7 +2249,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S33_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2269,7 +2269,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S34_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2289,7 +2289,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S35_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2309,7 +2309,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S36_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2329,7 +2329,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S37_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2349,7 +2349,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S38_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2369,7 +2369,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S39_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2389,7 +2389,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S4_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2409,7 +2409,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S40_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2429,7 +2429,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S41_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2449,7 +2449,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S42_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2469,7 +2469,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S43_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2489,7 +2489,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S44_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2509,7 +2509,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S45_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2529,7 +2529,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S46_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2549,7 +2549,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S47_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2569,7 +2569,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S48_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2589,7 +2589,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S49_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2609,7 +2609,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S5_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2629,7 +2629,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S50_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2649,7 +2649,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S51_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2669,7 +2669,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S52_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2689,7 +2689,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S53_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2709,7 +2709,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S54_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2729,7 +2729,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S55_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2749,7 +2749,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S56_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2769,7 +2769,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S57_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2789,7 +2789,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S58_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2809,7 +2809,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S59_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2829,7 +2829,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S6_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2849,7 +2849,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S60_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2869,7 +2869,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S61_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2889,7 +2889,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S62_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2909,7 +2909,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S63_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2929,7 +2929,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S64_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2949,7 +2949,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S65_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2969,7 +2969,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S66_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -2989,7 +2989,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S67_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3009,7 +3009,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S68_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3029,7 +3029,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S69_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3049,7 +3049,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S7_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3069,7 +3069,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S70_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3089,7 +3089,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S71_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3109,7 +3109,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S72_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3129,7 +3129,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S73_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3149,7 +3149,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S74_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3169,7 +3169,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S75_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3189,7 +3189,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S76_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3209,7 +3209,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S77_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3229,7 +3229,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S78_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3249,7 +3249,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S79_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3269,7 +3269,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S8_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3289,7 +3289,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S80_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3309,7 +3309,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S81_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3329,7 +3329,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S82_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3349,7 +3349,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S83_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3369,7 +3369,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S84_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3389,7 +3389,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S85_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3409,7 +3409,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S86_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3429,7 +3429,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S87_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3449,7 +3449,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S88_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3469,7 +3469,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S89_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3489,7 +3489,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S9_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3509,7 +3509,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S90_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3529,7 +3529,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S91_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3549,7 +3549,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S92_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3569,7 +3569,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S93_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3589,7 +3589,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S94_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3609,7 +3609,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S95_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3629,7 +3629,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S96_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3649,7 +3649,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S97_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3669,7 +3669,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S98_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3689,7 +3689,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S99_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -3991,7 +3991,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "const",
+            "name": "konst",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -4316,7 +4316,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S0_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4336,7 +4336,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S1_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4356,7 +4356,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S10_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4376,7 +4376,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S11_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4396,7 +4396,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S12_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4416,7 +4416,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S13_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4436,7 +4436,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S14_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4456,7 +4456,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S15_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4476,7 +4476,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S16_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4496,7 +4496,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S17_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4516,7 +4516,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S18_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4536,7 +4536,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S19_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4556,7 +4556,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S2_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4576,7 +4576,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S20_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4596,7 +4596,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S21_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4616,7 +4616,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S22_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4636,7 +4636,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S23_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4656,7 +4656,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S24_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4676,7 +4676,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S25_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4696,7 +4696,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S26_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4716,7 +4716,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S27_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4736,7 +4736,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S28_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4756,7 +4756,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S29_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4776,7 +4776,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S3_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4796,7 +4796,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S30_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4816,7 +4816,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S31_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4836,7 +4836,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S32_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4856,7 +4856,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S33_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4876,7 +4876,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S34_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4896,7 +4896,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S35_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4916,7 +4916,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S36_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4936,7 +4936,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S37_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4956,7 +4956,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S38_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4976,7 +4976,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S39_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -4996,7 +4996,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S4_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5016,7 +5016,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S40_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5036,7 +5036,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S41_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5056,7 +5056,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S42_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5076,7 +5076,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S43_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5096,7 +5096,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S44_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5116,7 +5116,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S45_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5136,7 +5136,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S46_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5156,7 +5156,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S47_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5176,7 +5176,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S48_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5196,7 +5196,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S49_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5216,7 +5216,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S5_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5236,7 +5236,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S50_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5256,7 +5256,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S51_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5276,7 +5276,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S52_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5296,7 +5296,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S53_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5316,7 +5316,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S54_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5336,7 +5336,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S55_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5356,7 +5356,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S56_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5376,7 +5376,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S57_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5396,7 +5396,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S58_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5416,7 +5416,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S59_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5436,7 +5436,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S6_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5456,7 +5456,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S60_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5476,7 +5476,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S61_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5496,7 +5496,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S62_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5516,7 +5516,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S63_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5536,7 +5536,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S64_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5556,7 +5556,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S65_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5576,7 +5576,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S66_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5596,7 +5596,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S67_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5616,7 +5616,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S68_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5636,7 +5636,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S69_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5656,7 +5656,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S7_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5676,7 +5676,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S70_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5696,7 +5696,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S71_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5716,7 +5716,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S72_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5736,7 +5736,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S73_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5756,7 +5756,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S74_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5776,7 +5776,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S75_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5796,7 +5796,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S76_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5816,7 +5816,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S77_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5836,7 +5836,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S78_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5856,7 +5856,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S79_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5876,7 +5876,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S8_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5896,7 +5896,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S80_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5916,7 +5916,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S81_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5936,7 +5936,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S82_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5956,7 +5956,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S83_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5976,7 +5976,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S84_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -5996,7 +5996,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S85_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6016,7 +6016,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S86_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6036,7 +6036,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S87_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6056,7 +6056,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S88_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6076,7 +6076,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S89_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6096,7 +6096,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S9_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6116,7 +6116,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S90_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6136,7 +6136,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S91_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6156,7 +6156,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S92_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6176,7 +6176,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S93_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6196,7 +6196,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S94_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6216,7 +6216,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S95_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6236,7 +6236,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S96_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6256,7 +6256,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S97_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6276,7 +6276,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S98_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,
@@ -6296,7 +6296,7 @@ Info seq  [hh:mm:ss:mss] response:
           },
           {
             "name": "S99_0",
-            "kind": "const",
+            "kind": "konst",
             "kindModifiers": "export",
             "sortText": "16",
             "hasAction": true,

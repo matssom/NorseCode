@@ -6,51 +6,51 @@
 ////const x = 0;
 
 verify.navigationTree({
-    "text": "<global>",
-    "kind": "script",
-    "childItems": [
-        {
-            "text": "NumberLike",
-            "kind": "type"
-        },
-        {
-            "text": "x",
-            "kind": "const"
-        },
-        {
-            "text": "x",
-            "kind": "type"
-        }
-    ]
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "NumberLike",
+      kind: "type",
+    },
+    {
+      text: "x",
+      kind: "konst",
+    },
+    {
+      text: "x",
+      kind: "type",
+    },
+  ],
 });
 
 verify.navigationBar([
   {
-    "text": "<global>",
-    "kind": "script",
-    "childItems": [
+    text: "<global>",
+    kind: "script",
+    childItems: [
       {
-        "text": "NumberLike",
-        "kind": "type"
+        text: "NumberLike",
+        kind: "type",
       },
       {
-        "text": "x",
-        "kind": "const"
+        text: "x",
+        kind: "konst",
       },
       {
-        "text": "x",
-        "kind": "type"
-      }
-    ]
+        text: "x",
+        kind: "type",
+      },
+    ],
   },
   {
-    "text": "NumberLike",
-    "kind": "type",
-    "indent": 1,
+    text: "NumberLike",
+    kind: "type",
+    indent: 1,
   },
   {
-    "text": "x",
-    "kind": "type",
-    "indent": 1
-  }
+    text: "x",
+    kind: "type",
+    indent: 1,
+  },
 ]);

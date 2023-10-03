@@ -27220,7 +27220,7 @@ declare var locationbar: BarProp;
 declare var menubar: BarProp;
 /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/Window/name) */
 /** @deprecated */
-declare const name: void;
+declare konst name: void;
 /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/Window/navigator) */
 declare var navigator: Navigator;
 /**

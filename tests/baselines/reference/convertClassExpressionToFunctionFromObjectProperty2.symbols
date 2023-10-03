@@ -34,7 +34,7 @@
 
         constructor() { }
     },
-    const: class {
+    konst: class {
 >const : Symbol(const, Decl(convertClassExpressionToFunctionFromObjectProperty2.ts, 20, 6))
 
         constructor() { }

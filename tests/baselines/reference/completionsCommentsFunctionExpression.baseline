@@ -1411,13 +1411,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -5323,13 +5323,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -9993,13 +9993,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]
@@ -13689,13 +13689,13 @@
           ]
         },
         {
-          "name": "const",
+          "name": "konst",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "const",
+              "text": "konst",
               "kind": "keyword"
             }
           ]

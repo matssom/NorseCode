@@ -349,7 +349,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "const",
+            "name": "konst",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"

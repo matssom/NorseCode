@@ -8,17 +8,21 @@
 /////**/
 
 verify.completions({
-    marker: "",
-    includes: [{
-        name: "foo",
-        source: "/foo",
-        sourceDisplay: "./foo",
-        hasAction: true,
-        kind: "const",
-        kindModifiers: "export,deprecated",
-        sortText: completion.SortText.Deprecated(completion.SortText.AutoImportSuggestions),
-    }],
-    preferences: {
-        includeCompletionsForModuleExports: true,
+  marker: "",
+  includes: [
+    {
+      name: "foo",
+      source: "/foo",
+      sourceDisplay: "./foo",
+      hasAction: true,
+      kind: "konst",
+      kindModifiers: "export,deprecated",
+      sortText: completion.SortText.Deprecated(
+        completion.SortText.AutoImportSuggestions
+      ),
     },
+  ],
+  preferences: {
+    includeCompletionsForModuleExports: true,
+  },
 });

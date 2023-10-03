@@ -17,16 +17,16 @@
 ////fo/**/
 
 verify.completions({
-    marker: "",
-    includes: {
-        name: "foo",
-        source: "n",
-        sourceDisplay: "n",
-        text: "const N.foo: number",
-        kind: "const",
-        kindModifiers: "export,declare",
-        hasAction: true,
-        sortText: completion.SortText.AutoImportSuggestions
-    },
-    preferences: { includeCompletionsForModuleExports: true },
+  marker: "",
+  includes: {
+    name: "foo",
+    source: "n",
+    sourceDisplay: "n",
+    text: "const N.foo: number",
+    kind: "konst",
+    kindModifiers: "export,declare",
+    hasAction: true,
+    sortText: completion.SortText.AutoImportSuggestions,
+  },
+  preferences: { includeCompletionsForModuleExports: true },
 });

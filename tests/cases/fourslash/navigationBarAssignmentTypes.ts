@@ -1,4 +1,4 @@
-/// <reference path='fourslash.ts'/> 
+/// <reference path='fourslash.ts'/>
 ////'use strict'
 ////const a = {
 ////    ...b,
@@ -7,58 +7,58 @@
 ////};
 
 verify.navigationTree({
-    text: "<global>",
-    kind: "script",
-    childItems: [
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "a",
+      kind: "konst",
+      childItems: [
         {
-            text: "a",
-            kind: "const",
-            childItems: [
-                {
-                    text: "b",
-                    kind: "property",
-                },
-                {
-                    text: "c",
-                    kind: "property"
-                },
-                {
-                    text: "d",
-                    kind: "property"
-                }
-            ]
-        }
-    ]
+          text: "b",
+          kind: "property",
+        },
+        {
+          text: "c",
+          kind: "property",
+        },
+        {
+          text: "d",
+          kind: "property",
+        },
+      ],
+    },
+  ],
 });
 
 verify.navigationBar([
-    {
-        text: "<global>",
-        kind: "script",
-        childItems: [
-            {
-                text: "a",
-                kind: "const"
-            }
-        ]
-    },
-    {
+  {
+    text: "<global>",
+    kind: "script",
+    childItems: [
+      {
         text: "a",
-        kind: "const",
-        childItems: [
-            {
-                text: "b",
-                kind: "property",
-            },
-            {
-                text: "c",
-                kind: "property"
-            },
-            {
-                text: "d",
-                kind: "property"
-            }
-        ],
-        indent: 1
-    }
+        kind: "konst",
+      },
+    ],
+  },
+  {
+    text: "a",
+    kind: "konst",
+    childItems: [
+      {
+        text: "b",
+        kind: "property",
+      },
+      {
+        text: "c",
+        kind: "property",
+      },
+      {
+        text: "d",
+        kind: "property",
+      },
+    ],
+    indent: 1,
+  },
 ]);

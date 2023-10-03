@@ -982,7 +982,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A variable whose type is a 'unique symbol' type must be 'const'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Eine Variable, deren Typ ein "unique symbol"-Typ ist, muss "const" sein.]]></Val>
+            <Val><![CDATA[Eine Variable, deren Typ ein "unique symbol"-Typ ist, muss "konst" sein.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1207,7 +1207,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to all unresolved variables]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" zu allen nicht aufgelösten Variablen hinzufügen]]></Val>
+            <Val><![CDATA["konst" zu allen nicht aufgelösten Variablen hinzufügen]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1216,7 +1216,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to unresolved variable]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" zur nicht aufgelösten Variable hinzufügen]]></Val>
+            <Val><![CDATA["konst" zur nicht aufgelösten Variable hinzufügen]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4018,7 +4018,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert all 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Alle "const" in "let" konvertieren]]></Val>
+            <Val><![CDATA[Alle "konst" in "let" konvertieren]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4117,7 +4117,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA["const" in "let" konvertieren]]></Val>
+            <Val><![CDATA["konst" in "let" konvertieren]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

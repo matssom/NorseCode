@@ -216,7 +216,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Утверждения "const" могут применяться только к ссылкам на члены перечисления либо к строковым, числовым, логическим литералам, литералам массивов или объектов.]]></Val>
+            <Val><![CDATA[Утверждения "konst" могут применяться только к ссылкам на члены перечисления либо к строковым, числовым, логическим литералам, литералам массивов или объектов.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -234,7 +234,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A 'const' initializer in an ambient context must be a string or numeric literal or literal enum reference.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Инициализатор "const" во внешнем контексте должен быть строкой или числовым литералом либо ссылкой на литеральное перечисление.]]></Val>
+            <Val><![CDATA[Инициализатор "konst" во внешнем контексте должен быть строкой или числовым литералом либо ссылкой на литеральное перечисление.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -984,7 +984,7 @@
         <Str Cat="Text">
           <Val><![CDATA[A variable whose type is a 'unique symbol' type must be 'const'.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Переменная, тип которой — "unique symbol", должна быть задана как "const".]]></Val>
+            <Val><![CDATA[Переменная, тип которой — "unique symbol", должна быть задана как "konst".]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1209,7 +1209,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to all unresolved variables]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Добавить "const" ко всем неразрешенным переменным]]></Val>
+            <Val><![CDATA[Добавить "konst" ко всем неразрешенным переменным]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -1218,7 +1218,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Add 'const' to unresolved variable]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Добавить "const" к неразрешенной переменной]]></Val>
+            <Val><![CDATA[Добавить "konst" к неразрешенной переменной]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4020,7 +4020,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert all 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Преобразовать все "const" в "let"]]></Val>
+            <Val><![CDATA[Преобразовать все "konst" в "let"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -4119,7 +4119,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Convert 'const' to 'let']]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Преобразовать "const" в "let"]]></Val>
+            <Val><![CDATA[Преобразовать "konst" в "let"]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -16530,7 +16530,7 @@
         <Str Cat="Text">
           <Val><![CDATA['const' declarations must be initialized.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Объявления "const" должны быть инициализированы.]]></Val>
+            <Val><![CDATA[Объявления "konst" должны быть инициализированы.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA['const' declarations must be initialized]]></Val>

@@ -3,8 +3,6 @@
 // import { T } from "./foo";
 // let x: /*GOTO TYPE*/T;
 
-
-
 // === goToDefinition ===
 // === /tests/cases/fourslash/foo.ts ===
 // <|export type [|{| defId: 0 |}T|] = string;|>
@@ -14,24 +12,24 @@
 // import { T } from "./foo";
 // let x: /*GOTO DEF*/[|T|];
 
-  // === Details ===
-  [
-   {
+// === Details ===
+[
+  {
     "defId": 0,
-    "kind": "const",
+    "kind": "konst",
     "name": "T",
     "containerName": "\"/tests/cases/fourslash/foo\"",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false
-   },
-   {
+  },
+  {
     "defId": 1,
-    "kind": "const",
+    "kind": "konst",
     "name": "T",
     "containerName": "\"/tests/cases/fourslash/foo\"",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false
-   }
-  ]
+  }
+]

@@ -15,7 +15,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "foo",
     "containerName": "",
     "isLocal": false,
@@ -72,7 +72,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "x",
     "containerName": "",
     "isLocal": false,

@@ -3,11 +3,11 @@
 // @noLib: true
 
 ////[|{| "name": "A", "kind": "class" |}class A {}|]
-////const [|{| "name": "B", "kind": "const" |}B = [|{| "name": "Cz", "kind": "class" |}class Cz {
+////const [|{| "name": "B", "kind": "konst" |}B = [|{| "name": "Cz", "kind": "class" |}class Cz {
 ////    public x;
 ////}|]|];
 ////[|{| "name": "D", "kind": "function" |}function D() {}|]
-////const [|{| "name": "E", "kind": "const" |}E = [|{| "name": "F", "kind": "function" |}function F() {}|]|]
+////const [|{| "name": "E", "kind": "konst" |}E = [|{| "name": "F", "kind": "function" |}function F() {}|]|]
 ////console.log(function() {}, class {}); // Expression with no name should have no effect.
 ////console.log([|{| "name": "inner", "kind": "function" |}function inner() {}|]);
 ////String([|{| "name": "nn", "kind": "function" |}function nn() {
@@ -17,5 +17,8 @@
 ////}|]));
 
 for (const range of test.ranges()) {
-	verify.navigateTo({ pattern: range.marker.data.name, expected: [{ ...range.marker.data, range }] });
+  verify.navigateTo({
+    pattern: range.marker.data.name,
+    expected: [{ ...range.marker.data, range }],
+  });
 }

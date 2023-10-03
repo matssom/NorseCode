@@ -10,7 +10,7 @@
   // === Details ===
   [
    {
-    "kind": "const",
+    "kind": "konst",
     "name": "Component",
     "containerName": "\"/tests/cases/fourslash/goToDefinitionPropertyAssignment\"",
     "isLocal": false,

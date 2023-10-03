@@ -6,46 +6,39 @@
 ////exports.a = exports.b = exports.c = 0;
 
 verify.navigationTree({
-    text: "<global>",
-    kind: "script",
-    childItems: [
+  text: "<global>",
+  kind: "script",
+  childItems: [
+    {
+      text: "a",
+      kind: "konst",
+      childItems: [
         {
-            text: "a",
-            kind: "const",
-            childItems: [
-                {
-                    text: "b",
-                    kind: "const",
-                    childItems: [{ text: "c", kind: "const" }],
-                },
-            ],
+          text: "b",
+          kind: "konst",
+          childItems: [{ text: "c", kind: "konst" }],
         },
-    ],
+      ],
+    },
+  ],
 });
 
 verify.navigationBar([
-    {
-        text: "<global>",
-        kind: "script",
-        childItems: [
-            { text: "a", kind: "const" },
-        ]
-    },
-    {
-        text: "a",
-        kind: "const",
-        childItems: [
-            { text: "b", kind: "const"},
-        ],
-        indent: 1,
-    },
-    {
-        text: "b",
-        kind: "const",
-        childItems: [
-            { text: "c", kind: "const" },
-        ],
-        indent: 2,
-    }
+  {
+    text: "<global>",
+    kind: "script",
+    childItems: [{ text: "a", kind: "konst" }],
+  },
+  {
+    text: "a",
+    kind: "konst",
+    childItems: [{ text: "b", kind: "konst" }],
+    indent: 1,
+  },
+  {
+    text: "b",
+    kind: "konst",
+    childItems: [{ text: "c", kind: "konst" }],
+    indent: 2,
+  },
 ]);
-
