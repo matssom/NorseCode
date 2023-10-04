@@ -37,7 +37,7 @@ declare function isNaN(number: number): boolean;
 
 /**
  * Determines whether a supplied number is finite.
- * @param number Any numeric value.
+ * @param number any numeric value.
  */
 declare function isFinite(number: number): boolean;
 

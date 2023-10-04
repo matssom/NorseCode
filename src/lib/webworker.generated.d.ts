@@ -6193,8 +6193,8 @@ declare var WebGL2RenderingContext: {
     readonly WAIT_FAILED: 0x911D;
     readonly SYNC_FLUSH_COMMANDS_BIT: 0x00000001;
     readonly VERTEX_ATTRIB_ARRAY_DIVISOR: 0x88FE;
-    readonly ANY_SAMPLES_PASSED: 0x8C2F;
-    readonly ANY_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
+    readonly any_SAMPLES_PASSED: 0x8C2F;
+    readonly any_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
     readonly SAMPLER_BINDING: 0x8919;
     readonly RGB10_A2UI: 0x906F;
     readonly INT_2_10_10_10_REV: 0x8D9F;
@@ -6938,8 +6938,8 @@ interface WebGL2RenderingContextBase {
     readonly WAIT_FAILED: 0x911D;
     readonly SYNC_FLUSH_COMMANDS_BIT: 0x00000001;
     readonly VERTEX_ATTRIB_ARRAY_DIVISOR: 0x88FE;
-    readonly ANY_SAMPLES_PASSED: 0x8C2F;
-    readonly ANY_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
+    readonly any_SAMPLES_PASSED: 0x8C2F;
+    readonly any_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
     readonly SAMPLER_BINDING: 0x8919;
     readonly RGB10_A2UI: 0x906F;
     readonly INT_2_10_10_10_REV: 0x8D9F;

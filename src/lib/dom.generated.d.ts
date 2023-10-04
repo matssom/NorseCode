@@ -3323,7 +3323,7 @@ declare var CSSFontPaletteValuesRule: {
 };
 
 /**
- * Any CSS at-rule that contains other rules nested within it.
+ * any CSS at-rule that contains other rules nested within it.
  *
  * [MDN Reference](https://developer.mozilla.org/docs/Web/API/CSSGroupingRule)
  */
@@ -6706,7 +6706,7 @@ interface DocumentEventMap extends GlobalEventHandlersEventMap {
 }
 
 /**
- * Any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
+ * any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
  *
  * [MDN Reference](https://developer.mozilla.org/docs/Web/API/Document)
  */
@@ -10026,7 +10026,7 @@ interface HTMLElementEventMap extends ElementEventMap, GlobalEventHandlersEventM
 }
 
 /**
- * Any HTML element. Some elements directly implement this interface, while others implement it via an interface that inherits it.
+ * any HTML element. Some elements directly implement this interface, while others implement it via an interface that inherits it.
  *
  * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLElement)
  */
@@ -23395,8 +23395,8 @@ declare var WebGL2RenderingContext: {
     readonly WAIT_FAILED: 0x911D;
     readonly SYNC_FLUSH_COMMANDS_BIT: 0x00000001;
     readonly VERTEX_ATTRIB_ARRAY_DIVISOR: 0x88FE;
-    readonly ANY_SAMPLES_PASSED: 0x8C2F;
-    readonly ANY_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
+    readonly any_SAMPLES_PASSED: 0x8C2F;
+    readonly any_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
     readonly SAMPLER_BINDING: 0x8919;
     readonly RGB10_A2UI: 0x906F;
     readonly INT_2_10_10_10_REV: 0x8D9F;
@@ -24140,8 +24140,8 @@ interface WebGL2RenderingContextBase {
     readonly WAIT_FAILED: 0x911D;
     readonly SYNC_FLUSH_COMMANDS_BIT: 0x00000001;
     readonly VERTEX_ATTRIB_ARRAY_DIVISOR: 0x88FE;
-    readonly ANY_SAMPLES_PASSED: 0x8C2F;
-    readonly ANY_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
+    readonly any_SAMPLES_PASSED: 0x8C2F;
+    readonly any_SAMPLES_PASSED_CONSERVATIVE: 0x8D6A;
     readonly SAMPLER_BINDING: 0x8919;
     readonly RGB10_A2UI: 0x906F;
     readonly INT_2_10_10_10_REV: 0x8D9F;
@@ -25986,7 +25986,7 @@ interface Worklet {
      *
      * The credentials option can be set to a credentials mode to modify the script-fetching process. It defaults to "same-origin".
      *
-     * Any failures in fetching the script or its dependencies will cause the returned promise to be rejected with an "AbortError" DOMException. Any errors in parsing the script or its dependencies will cause the returned promise to be rejected with the exception generated during parsing.
+     * any failures in fetching the script or its dependencies will cause the returned promise to be rejected with an "AbortError" DOMException. any errors in parsing the script or its dependencies will cause the returned promise to be rejected with the exception generated during parsing.
      *
      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/Worklet/addModule)
      */
@@ -26351,7 +26351,7 @@ interface XPathResult {
     iterateNext(): Node | null;
     /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/XPathResult/snapshotItem) */
     snapshotItem(index: number): Node | null;
-    readonly ANY_TYPE: 0;
+    readonly any_TYPE: 0;
     readonly NUMBER_TYPE: 1;
     readonly STRING_TYPE: 2;
     readonly BOOLEAN_TYPE: 3;
@@ -26359,14 +26359,14 @@ interface XPathResult {
     readonly ORDERED_NODE_ITERATOR_TYPE: 5;
     readonly UNORDERED_NODE_SNAPSHOT_TYPE: 6;
     readonly ORDERED_NODE_SNAPSHOT_TYPE: 7;
-    readonly ANY_UNORDERED_NODE_TYPE: 8;
+    readonly any_UNORDERED_NODE_TYPE: 8;
     readonly FIRST_ORDERED_NODE_TYPE: 9;
 }
 
 declare var XPathResult: {
     prototype: XPathResult;
     new(): XPathResult;
-    readonly ANY_TYPE: 0;
+    readonly any_TYPE: 0;
     readonly NUMBER_TYPE: 1;
     readonly STRING_TYPE: 2;
     readonly BOOLEAN_TYPE: 3;
@@ -26374,7 +26374,7 @@ declare var XPathResult: {
     readonly ORDERED_NODE_ITERATOR_TYPE: 5;
     readonly UNORDERED_NODE_SNAPSHOT_TYPE: 6;
     readonly ORDERED_NODE_SNAPSHOT_TYPE: 7;
-    readonly ANY_UNORDERED_NODE_TYPE: 8;
+    readonly any_UNORDERED_NODE_TYPE: 8;
     readonly FIRST_ORDERED_NODE_TYPE: 9;
 };
 

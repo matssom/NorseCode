@@ -15,8 +15,7 @@ interface Atomics {
 
     /**
      * Replaces the value at the given position in the array if the original value equals the given
-     * expected value, returning the original value. Until this atomic operation completes, any
-     * other read or write operation against the array will block.
+     * expected value, returning the original value. Until this atomic operation completes, any      * other read or write operation against the array will block.
      */
     compareExchange(typedArray: BigInt64Array | BigUint64Array, index: number, expectedValue: bigint, replacementValue: bigint): bigint;
 
