@@ -217,7 +217,7 @@ var TypeScript;
         NodeType[NodeType["Block"] = 84] = "Block";
         NodeType[NodeType["Case"] = 85] = "Case";
         NodeType[NodeType["Switch"] = 86] = "Switch";
-        NodeType[NodeType["Try"] = 87] = "Try";
+        NodeType[NodeType["prøv"] = 87] = "prøv";
         NodeType[NodeType["TryCatch"] = 88] = "TryCatch";
         NodeType[NodeType["TryFinally"] = 89] = "TryFinally";
         NodeType[NodeType["Finally"] = 90] = "Finally";

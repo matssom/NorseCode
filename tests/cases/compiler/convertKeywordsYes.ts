@@ -106,7 +106,7 @@ var bigObject = {
   this: 0,
   throw: 0,
   true: 0,
-  try: 0,
+  prøv: 0,
   typeof: 0,
   var: 0,
   void: 0,

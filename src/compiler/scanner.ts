@@ -131,6 +131,92 @@ export interface Scanner {
     tryScan<T>(callback: () => T): T;
 }
 
+const textAndTranslationToToken:  MapLike<{ text: string, token: SyntaxKind }> = {
+    abstract: { text: "abstract", token: SyntaxKind.AbstractKeyword },
+    accessor: { text: "accessor", token: SyntaxKind.AccessorKeyword },
+    any: { text: "any", token: SyntaxKind.AnyKeyword },
+    as: { text: "as", token: SyntaxKind.AsKeyword },
+    asserts: { text: "asserts", token: SyntaxKind.AssertsKeyword },
+    assert: { text: "assert", token: SyntaxKind.AssertKeyword },
+    bigint: { text: "bigint", token: SyntaxKind.BigIntKeyword },
+    boolean: { text: "boolean", token: SyntaxKind.BooleanKeyword },
+    break: { text: "break", token: SyntaxKind.BreakKeyword },
+    case: { text: "case", token: SyntaxKind.CaseKeyword },
+    fang: { text: "catch", token: SyntaxKind.CatchKeyword },
+    class: { text: "class", token: SyntaxKind.ClassKeyword },
+    continue: { text: "continue", token: SyntaxKind.ContinueKeyword },
+    konst: { text: "const", token: SyntaxKind.ConstKeyword },
+    ["" + "constructor"]: { text: "constructor", token: SyntaxKind.ConstructorKeyword },
+    debugger: { text: "debugger", token: SyntaxKind.DebuggerKeyword },
+    declare: { text: "declare", token: SyntaxKind.DeclareKeyword },
+    default: { text: "default", token: SyntaxKind.DefaultKeyword },
+    delete: { text: "delete", token: SyntaxKind.DeleteKeyword },
+    do: { text: "do", token: SyntaxKind.DoKeyword },
+    else: { text: "else", token: SyntaxKind.ElseKeyword },
+    enum: { text: "enum", token: SyntaxKind.EnumKeyword },
+    export: { text: "export", token: SyntaxKind.ExportKeyword },
+    extends: { text: "extends", token: SyntaxKind.ExtendsKeyword },
+    false: { text: "false", token: SyntaxKind.FalseKeyword },
+    finally: { text: "finally", token: SyntaxKind.FinallyKeyword },
+    for: { text: "for", token: SyntaxKind.ForKeyword },
+    from: { text: "from", token: SyntaxKind.FromKeyword },
+    function: { text: "function", token: SyntaxKind.FunctionKeyword },
+    get: { text: "get", token: SyntaxKind.GetKeyword },
+    if: { text: "if", token: SyntaxKind.IfKeyword },
+    implements: { text: "implements", token: SyntaxKind.ImplementsKeyword },
+    import: { text: "import", token: SyntaxKind.ImportKeyword },
+    in: { text: "in", token: SyntaxKind.InKeyword },
+    infer: { text: "infer", token: SyntaxKind.InferKeyword },
+    instanceof: { text: "instanceof", token: SyntaxKind.InstanceOfKeyword },
+    interface: { text: "interface", token: SyntaxKind.InterfaceKeyword },
+    intrinsic: { text: "intrinsic", token: SyntaxKind.IntrinsicKeyword },
+    is: { text: "is", token: SyntaxKind.IsKeyword },
+    keyof: { text: "keyof", token: SyntaxKind.KeyOfKeyword },
+    la: { text: "let", token: SyntaxKind.LetKeyword },
+    module: { text: "module", token: SyntaxKind.ModuleKeyword },
+    namespace: { text: "namespace", token: SyntaxKind.NamespaceKeyword },
+    never: { text: "never", token: SyntaxKind.NeverKeyword },
+    new: { text: "new", token: SyntaxKind.NewKeyword },
+    null: { text: "null", token: SyntaxKind.NullKeyword },
+    number: { text: "number", token: SyntaxKind.NumberKeyword },
+    object: { text: "object", token: SyntaxKind.ObjectKeyword },
+    package: { text: "package", token: SyntaxKind.PackageKeyword },
+    private: { text: "private", token: SyntaxKind.PrivateKeyword },
+    protected: { text: "protected", token: SyntaxKind.ProtectedKeyword },
+    public: { text: "public", token: SyntaxKind.PublicKeyword },
+    override: { text: "override", token: SyntaxKind.OverrideKeyword },
+    out: { text: "out", token: SyntaxKind.OutKeyword },
+    readonly: { text: "readonly", token: SyntaxKind.ReadonlyKeyword },
+    require: { text: "require", token: SyntaxKind.RequireKeyword },
+    global: { text: "global", token: SyntaxKind.GlobalKeyword },
+    return: { text: "return", token: SyntaxKind.ReturnKeyword },
+    satisfies: { text: "satisfies", token: SyntaxKind.SatisfiesKeyword },
+    set: { text: "set", token: SyntaxKind.SetKeyword },
+    static: { text: "static", token: SyntaxKind.StaticKeyword },
+    string: { text: "string", token: SyntaxKind.StringKeyword },
+    super: { text: "super", token: SyntaxKind.SuperKeyword },
+    switch: { text: "switch", token: SyntaxKind.SwitchKeyword },
+    symbol: { text: "symbol", token: SyntaxKind.SymbolKeyword },
+    this: { text: "this", token: SyntaxKind.ThisKeyword },
+    throw: { text: "throw", token: SyntaxKind.ThrowKeyword },
+    true: { text: "true", token: SyntaxKind.TrueKeyword },
+    prøv: { text: "try", token: SyntaxKind.TryKeyword },
+    type: { text: "type", token: SyntaxKind.TypeKeyword },
+    typeof: { text: "typeof", token: SyntaxKind.TypeOfKeyword },
+    undefined: { text: "undefined", token: SyntaxKind.UndefinedKeyword },
+    unique: { text: "unique", token: SyntaxKind.UniqueKeyword },
+    unknown: { text: "unknown", token: SyntaxKind.UnknownKeyword },
+    using: { text: "using", token: SyntaxKind.UsingKeyword },
+    var: { text: "var", token: SyntaxKind.VarKeyword },
+    void: { text: "void", token: SyntaxKind.VoidKeyword },
+    while: { text: "while", token: SyntaxKind.WhileKeyword },
+    with: { text: "with", token: SyntaxKind.WithKeyword },
+    yield: { text: "yield", token: SyntaxKind.YieldKeyword },
+    async: { text: "async", token: SyntaxKind.AsyncKeyword },
+    await: { text: "await", token: SyntaxKind.AwaitKeyword },
+    of: { text: "of", token: SyntaxKind.OfKeyword },
+}
+
 /** @internal */
 export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     abstract: SyntaxKind.AbstractKeyword,
@@ -143,7 +229,7 @@ export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     boolean: SyntaxKind.BooleanKeyword,
     break: SyntaxKind.BreakKeyword,
     case: SyntaxKind.CaseKeyword,
-    catch: SyntaxKind.CatchKeyword,
+    fang: SyntaxKind.CatchKeyword,
     class: SyntaxKind.ClassKeyword,
     continue: SyntaxKind.ContinueKeyword,
     konst: SyntaxKind.ConstKeyword,
@@ -201,7 +287,7 @@ export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     this: SyntaxKind.ThisKeyword,
     throw: SyntaxKind.ThrowKeyword,
     true: SyntaxKind.TrueKeyword,
-    try: SyntaxKind.TryKeyword,
+    prøv: SyntaxKind.TryKeyword,
     type: SyntaxKind.TypeKeyword,
     typeof: SyntaxKind.TypeOfKeyword,
     undefined: SyntaxKind.UndefinedKeyword,
@@ -910,7 +996,19 @@ const tokenStrings = makeReverseMap(textToToken);
 export function tokenToString(t: PunctuationOrKeywordSyntaxKind): string;
 export function tokenToString(t: SyntaxKind): string | undefined;
 export function tokenToString(t: SyntaxKind): string | undefined {
-    return tokenStrings[t];
+    const untranslatedString = tokenStrings[t];
+
+    if (!untranslatedString) {
+        return undefined;
+    }
+
+    const tokenObj = textAndTranslationToToken[untranslatedString];
+
+    if (!tokenObj) {
+        return untranslatedString;
+    }
+
+    return tokenObj.text;
 }
 
 /** @internal */

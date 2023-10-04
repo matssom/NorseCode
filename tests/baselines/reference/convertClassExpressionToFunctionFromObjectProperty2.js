@@ -100,7 +100,7 @@
   true: class {
     constructor() {}
   },
-  try: class {
+  prøv: class {
     constructor() {}
   },
   typeof: class {
@@ -370,7 +370,7 @@
       function true_1() {}
       return true_1;
     })(),
-    try: /** @class */ (function () {
+    prøv: /** @class */ (function () {
       function try_1() {}
       return try_1;
     })(),

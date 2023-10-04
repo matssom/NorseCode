@@ -897,7 +897,7 @@ parserRealSource10.ts(449,41): error TS1011: An element access expression should
 !!! error TS2304: Cannot find name 'NodeType'.
                                                                                                                                                         ~~~~~~~~~~~~~~~~
 !!! error TS2304: Cannot find name 'ErrorRecoverySet'.
-        setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "try", ErrorRecoverySet.Stmt);
+        setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "prøv", ErrorRecoverySet.Stmt);
                                                                                         ~~~~~~~~
 !!! error TS2304: Cannot find name 'NodeType'.
                                                                                                                                 ~~~~~~~~

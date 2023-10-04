@@ -107,7 +107,7 @@ var bigObject = {
     this: 0,
     throw: 0,
     true: 0,
-    try: 0,
+    prøv: 0,
     typeof: 0,
     var: 0,
     void: 0,
@@ -377,7 +377,7 @@ var bigObject = {
     this: 0,
     throw: 0,
     true: 0,
-    try: 0,
+    prøv: 0,
     typeof: 0,
     var: 0,
     void: 0,
@@ -493,7 +493,7 @@ var bigEnum;
     bigEnum[bigEnum["this"] = 45] = "this";
     bigEnum[bigEnum["throw"] = 46] = "throw";
     bigEnum[bigEnum["true"] = 47] = "true";
-    bigEnum[bigEnum["try"] = 48] = "try";
+    bigEnum[bigEnum["prøv"] = 48] = "prøv";
     bigEnum[bigEnum["typeof"] = 49] = "typeof";
     bigEnum[bigEnum["var"] = 50] = "var";
     bigEnum[bigEnum["void"] = 51] = "void";

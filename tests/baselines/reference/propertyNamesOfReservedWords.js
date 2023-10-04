@@ -350,7 +350,7 @@ var E;
     E[E["throws"] = 52] = "throws";
     E[E["transient"] = 53] = "transient";
     E[E["true"] = 54] = "true";
-    E[E["try"] = 55] = "try";
+    E[E["prøv"] = 55] = "prøv";
     E[E["typeof"] = 56] = "typeof";
     E[E["use"] = 57] = "use";
     E[E["var"] = 58] = "var";

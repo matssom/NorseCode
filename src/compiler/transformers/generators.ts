@@ -199,7 +199,7 @@ import {
 //                                |     state.trys = [];
 //                                | ...
 //  .try TRY, CATCH, FINALLY, END |
-//  .mark TRY                     | case TRY:
+//  .mark TRY                     | case prøv:
 //                                |     state.trys.push([TRY, CATCH, FINALLY, END]);
 //  .nop                          |
 //      a();                      |     a();
@@ -2014,6 +2014,8 @@ export function transformGenerators(context: TransformationContext): (x: SourceF
             //  .endfinally
             //  .endtry
             //  .mark endLabel
+
+            // @TODO (mats): go back here
 
             beginExceptionBlock();
             transformAndEmitEmbeddedStatement(node.tryBlock);

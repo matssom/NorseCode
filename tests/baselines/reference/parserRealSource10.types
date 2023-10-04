@@ -1910,8 +1910,8 @@ module TypeScript {
 >ErrorRecoverySet : any
 >RLit : any
 
-    setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "try", ErrorRecoverySet.Stmt);
->setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "try", ErrorRecoverySet.Stmt) : void
+    setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "prøv", ErrorRecoverySet.Stmt);
+>setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "prøv", ErrorRecoverySet.Stmt) : void
 >setTokenInfo : (tokenId: TokenID, reservation: number, binopPrecedence: number, binopNodeType: number, unopPrecedence: number, unopNodeType: number, text: string, ers: ErrorRecoverySet) => void
 >TokenID.Try : TokenID.Try
 >TokenID : typeof TokenID
@@ -1931,7 +1931,7 @@ module TypeScript {
 >NodeType.None : any
 >NodeType : any
 >None : any
->"try" : "try"
+>"prøv" : "prøv"
 >ErrorRecoverySet.Stmt : any
 >ErrorRecoverySet : any
 >Stmt : any

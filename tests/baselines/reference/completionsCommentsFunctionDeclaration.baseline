@@ -3993,13 +3993,13 @@
           ]
         },
         {
-          "name": "try",
+          "name": "prøv",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "try",
+              "text": "prøv",
               "kind": "keyword"
             }
           ]
@@ -7646,13 +7646,13 @@
           ]
         },
         {
-          "name": "try",
+          "name": "prøv",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "try",
+              "text": "prøv",
               "kind": "keyword"
             }
           ]
@@ -11829,13 +11829,13 @@
           ]
         },
         {
-          "name": "try",
+          "name": "prøv",
           "kind": "keyword",
           "kindModifiers": "",
           "sortText": "15",
           "displayParts": [
             {
-              "text": "try",
+              "text": "prøv",
               "kind": "keyword"
             }
           ]

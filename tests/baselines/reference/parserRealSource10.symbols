@@ -1321,7 +1321,7 @@ module TypeScript {
 >OperatorPrecedence : Symbol(OperatorPrecedence, Decl(parserRealSource10.ts, 142, 39))
 >None : Symbol(OperatorPrecedence.None, Decl(parserRealSource10.ts, 144, 36))
 
-    setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "try", ErrorRecoverySet.Stmt);
+    setTokenInfo(TokenID.Try, Reservation.TypeScriptAndJS, OperatorPrecedence.None, NodeType.None, OperatorPrecedence.None, NodeType.None, "prøv", ErrorRecoverySet.Stmt);
 >setTokenInfo : Symbol(setTokenInfo, Decl(parserRealSource10.ts, 179, 5))
 >TokenID.Try : Symbol(TokenID.Try, Decl(parserRealSource10.ts, 54, 13))
 >TokenID : Symbol(TokenID, Decl(parserRealSource10.ts, 5, 19))

@@ -12,7 +12,7 @@ format.document();
 format.document();
 format.document();
 
-goTo.marker("try");
+goTo.marker("prøv");
 verify.currentLineContentIs("    try {");
 
 goTo.marker("catch");

@@ -164,7 +164,7 @@
 
         constructor() { }
     },
-    try: class {
+    prøv: class {
 >try : Symbol(try, Decl(convertClassExpressionToFunctionFromObjectProperty2.ts, 98, 6))
 
         constructor() { }

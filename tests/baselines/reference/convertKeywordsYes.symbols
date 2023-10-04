@@ -317,7 +317,7 @@ var bigObject = {
     true: 0,
 >true : Symbol(true, Decl(convertKeywordsYes.ts, 104, 13))
 
-    try: 0,
+    prøv: 0,
 >try : Symbol(try, Decl(convertKeywordsYes.ts, 105, 12))
 
     typeof: 0,

@@ -99,7 +99,7 @@
   true: class {
     constructor() {}
   },
-  try: class {
+  prøv: class {
     constructor() {}
   },
   typeof: class {

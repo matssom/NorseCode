@@ -663,7 +663,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "try",
+            "name": "prøv",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -1156,7 +1156,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "try",
+            "name": "prøv",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
@@ -1646,7 +1646,7 @@ Info seq  [hh:mm:ss:mss] response:
             "sortText": "15"
           },
           {
-            "name": "try",
+            "name": "prøv",
             "kind": "keyword",
             "kindModifiers": "",
             "sortText": "15"
